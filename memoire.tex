@@ -1,0 +1,134 @@
+\documentclass[oneside,4papera,12pt]{report}
+% Page de garde, dedicace, remerciements, resumés non numérotée
+
+%------------------------------Zone 1-------------------------
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage[left=2cm,right=2cm,top=3cm,bottom=3cm]{geometry}
+
+%% DEBUT MOL
+\usepackage[explicit]{titlesec}
+\usepackage{tikz}
+\usepackage{titletoc}
+\usepackage{xpatch}
+\definecolor{myblue}{RGB}{0,0,0}
+
+\newcommand\DoPToC{%
+	\startcontents[chapters]
+	\printcontents[chapters]{}{1}{\noindent{\color{myblue}\rule{\textwidth}{1.5pt}}\par\medskip}%
+}
+
+\usepackage{fancyhdr}
+\setlength{\headheight}{9pt}
+\pagestyle{fancy}
+%\usepackage{lastpage}
+\renewcommand\headrulewidth{0.5pt}
+\fancyhead[L]{\scshape\leftmark\hspace{0,3cm}}
+\renewcommand\footrulewidth{0.5pt}
+\fancyfoot[C]{
+	\textbf{
+		\begin{tikzpicture}[baseline={([yshift=-.05ex]current bounding box.center)}]
+			\node[fill=black,circle,text=white] {{{\thepage}
+			}};
+		\end{tikzpicture}
+	}
+}
+\fancyhead[R]{2020-2021}
+
+
+\usepackage{enumitem}
+\usepackage{amssymb}
+
+\usepackage{hyperref}
+\hypersetup{colorlinks,%
+	citecolor=black,%
+	filecolor=black,%
+	linkcolor=black,%
+	urlcolor=black
+}
+
+\usepackage{tikz}
+\usetikzlibrary{shadows.blur}
+\usepackage{titletoc}
+
+\usepackage[]{titlesec} 
+\definecolor{yourcolor}{HTML}{000000}
+\definecolor{noir}{HTML}{000000}
+
+\usepackage{nomencl} 
+\makenomenclature 
+\renewcommand{\nomname}{Liste des abréviations, des sigles}% Pour redéfinir le titre De cette liste
+
+
+%%% FINNNNNN MOL
+\usepackage{fancyhdr}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage{refstyle}
+\usepackage{caption}
+\usepackage{adjustbox}
+
+\usepackage{array,multirow,makecell}
+\usepackage{tabularx}
+\renewcommand{\tabularxcolumn}{m}
+
+
+
+\setcellgapes{1pt}
+%\makegapedcells
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash }b{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash }b{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash }b{#1}}
+
+%------------------------------Fin Zone 1---------------------------
+
+\begin{document}
+	%------------Zone 2: début des page non numérotées-------------------------
+	\input{page_de_garde/page_de_garde.tex}
+	\input{remerciements/remerciements.tex}
+	\input{dedicaces/dedicaces.tex}
+	\input{resumes/resumes.tex}
+		\addcontentsline{toc}{chapter}{Resumé}
+	%------------Fin Zone 2: fin des page non numérotées------------------------
+	
+	%------------Zone 3:début entêtes et prieds de page-------------------------------
+	\pagestyle{fancy}
+	\fancyhead[L]{}
+	
+	\fancyfoot[L]{TUO Adama}
+	\fancyfoot[R]{\thepage}
+	\fancyfoot[C]{}
+	%
+	%\fancyfoot[R]{\ch}
+	
+	%------------Fin Zone 3: fin des entêtes et prieds de page ---------------
+	
+	%------------Zone 4: début de la numérotation avec les chiffres romains-----------------
+	
+	\tableofcontents
+		\pagenumbering{roman}
+		\setcounter{page}{1}
+	\listoftables
+	\addcontentsline{toc}{chapter}{Liste des tableaux}
+	\listoffigures
+	\addcontentsline{toc}{chapter}{Table des figures}
+	
+	\input{liste_abreviations/liste_abreviations.tex}
+		\addcontentsline{toc}{chapter}{Liste des abréviations}
+	
+	%------------Fin Zone 4: fin de la numérotation avec les chiffres romains---
+	
+	%-----------------Zone 5: début de la numérotation avec les chiffres arabs-----------
+	
+	\input{introduction_generale/introduction_generale.tex}
+		\pagenumbering{arabic}
+		\setcounter{page}{1}
+	\input{chap_1/chapitre_1.tex}
+	\input{chap_2/chapitre_2.tex}
+	\input{chap_3/chapitre_3.tex}
+	\input{conclusion_generale/conclusion_generale.tex}
+	\input{bibliographie/bibliographie.tex}
+	
+\end {document}

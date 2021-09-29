@@ -1,0 +1,43 @@
+\BOOKMARK [0][-]{chapter*.3}{Resum\351}{}% 1
+\BOOKMARK [0][-]{chapter*.5}{Liste des tableaux}{}% 2
+\BOOKMARK [0][-]{chapter*.6}{Table des figures}{}% 3
+\BOOKMARK [0][-]{chapter*.7}{Liste des abr\351viations}{}% 4
+\BOOKMARK [0][-]{chapter.1}{CADRE G\311N\311RAL}{}% 5
+\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.2}{Pr\351sentation de l'entreprise}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.3}{Cadre du projet}{chapter.1}% 8
+\BOOKMARK [2][-]{subsection.1.3.1}{Probl\351matique}{section.1.3}% 9
+\BOOKMARK [2][-]{subsection.1.3.2}{Objectifs du projet}{section.1.3}% 10
+\BOOKMARK [2][-]{subsection.1.3.3}{\311laboration du cahier des charges}{section.1.3}% 11
+\BOOKMARK [2][-]{subsection.1.3.4}{Planification de l'application}{section.1.3}% 12
+\BOOKMARK [1][-]{section.1.4}{Conclusion}{chapter.1}% 13
+\BOOKMARK [0][-]{chapter.2}{CONCEPTION ET \311TUDE TECHNIQUE}{}% 14
+\BOOKMARK [1][-]{section.2.1}{Conception}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.2}{Pr\351sentation de UML}{chapter.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.1}{Principaux diagrammes UML}{section.2.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.2}{Diagramme de cas d'utilisation}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.3}{Diagramme de classe}{section.2.2}% 19
+\BOOKMARK [1][-]{section.2.3}{Sch\351ma relationnel}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.3.1}{Mod\350le logique des donn\351es ou MLD}{section.2.3}% 21
+\BOOKMARK [2][-]{subsection.2.3.2}{Mod\350le physique de donn\351e ou MPD}{section.2.3}% 22
+\BOOKMARK [1][-]{section.2.4}{Outils de d\351veloppement}{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.4.1}{Technologie front-end}{section.2.4}% 24
+\BOOKMARK [2][-]{subsection.2.4.2}{Choix du framework back-end}{section.2.4}% 25
+\BOOKMARK [2][-]{subsection.2.4.3}{Syst\350me de gestion de base de donn\351es}{section.2.4}% 26
+\BOOKMARK [2][-]{subsection.2.4.4}{Avantages}{section.2.4}% 27
+\BOOKMARK [2][-]{subsection.2.4.5}{Architecture structurel}{section.2.4}% 28
+\BOOKMARK [2][-]{subsection.2.4.6}{Autre outils utilis\351s}{section.2.4}% 29
+\BOOKMARK [0][-]{chapter.3}{PR\311SENTATION DE L'APPLICATION}{}% 30
+\BOOKMARK [1][-]{section.3.1}{Authentification}{chapter.3}% 31
+\BOOKMARK [1][-]{section.3.2}{Liste des agents}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.3}{Ajouter interm\350de}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.4}{Les R\364les}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.5}{Ajouter interm\350de}{chapter.3}% 35
+\BOOKMARK [1][-]{section.3.6}{Liste des interm\350des}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.7}{Les modes de paiements}{chapter.3}% 37
+\BOOKMARK [1][-]{section.3.8}{Liste des types}{chapter.3}% 38
+\BOOKMARK [1][-]{section.3.9}{Recouvrement}{chapter.3}% 39
+\BOOKMARK [1][-]{section.3.10}{Transfert}{chapter.3}% 40
+\BOOKMARK [1][-]{section.3.11}{Message des op\351rations}{chapter.3}% 41
+\BOOKMARK [1][-]{section.3.12}{\311tats des paiements}{chapter.3}% 42
+\BOOKMARK [0][-]{figure.3.16}{Bibliographie}{}% 43

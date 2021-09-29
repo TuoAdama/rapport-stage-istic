@@ -1,0 +1,110 @@
+\begin{thebibliography}{10}
+
+\bibitem{planification}
+Samantha Mur.
+\newblock Comment gerer un projet informatique ?
+\newblock
+  \url{https://www.appvizer.fr/magazine/operations/gestion-de-projet/gestion-projet-informatique}.
+\newblock 18/12/2021.
+
+\bibitem{definition_diagramme_classe}
+memoireonline.
+\newblock Diagramme de classe.
+\newblock
+  \url{https://www.memoireonline.com/01/17/9565/m_Application-de-gestion-commerciale-des-produits-alimentaires13.html}.
+
+\bibitem{definition_diagramme_composant}
+memoireonline.
+\newblock Diagramme de composant.
+\newblock
+  \url{https://www.memoireonline.com/01/17/9565/m_Application-de-gestion-commerciale-des-produits-alimentaires13.html}.
+
+\bibitem{definition_diagramme_paquetage}
+memoireonline.
+\newblock Diagramme de paquetage.
+\newblock
+  \url{https://www.memoireonline.com/01/17/9565/m_Application-de-gestion-commerciale-des-produits-alimentaires13.html}.
+
+\bibitem{cas_d_utilisation}
+Developpez.
+\newblock Diagramme de cas d'utilisation.
+\newblock
+  \url{https://laurent-audibert.developpez.com/Cours-UML/?page=diagramme-cas-utilisation}.
+
+\bibitem{image_classe_voiture}
+moodle.campusafrica.
+\newblock Exemple diagramme de classe.
+\newblock
+  \url{https://moodle.campusafrica.gos.orange.com/pluginfile.php/1497/mod_resource/content/2/Le%C3%A7on6/web/res/image_12.jpg}.
+
+\bibitem{definition_html}
+Journal du~net.
+\newblock Hypertext markup langage.
+\newblock
+  \url{https://www.journaldunet.fr/web-tech/dictionnaire-du-webmastering/1203255-html-hypertext-markup-langage-definition-traduction/}.
+
+\bibitem{logo_bootstrap}
+memoireonline.
+\newblock Logo de bootstrap 5.
+\newblock \url{https://www.pngaaa.com/detail/3801772}.
+
+\bibitem{logo_alpine}
+miro.medium.com.
+\newblock Logo de alpinejs.
+\newblock \url{https://miro.medium.com/max/1400/1*KIJInxXLBElyBcQaEclz6g.png}.
+
+\bibitem{logo_laravel}
+laravel News.
+\newblock Logo de laravel.
+\newblock
+  \url{https://laravelnews.imgix.net/images/laravel-featured.png?ixlib=php-3.3.1}.
+
+\bibitem{laravel_1}
+Webilio.
+\newblock Desc laravel.
+\newblock
+  \url{https://webilio.xyz/2020/04/17/pourquoi-utiliser-le-framework-laravel/}.
+
+\bibitem{logo_livewire}
+Livewire.
+\newblock Logo livewire.
+\newblock
+  \url{https://laravel.sillo.org/wp-content/uploads/2020/10/Capture-62.png}.
+
+\bibitem{logo_mysql}
+MySQL.
+\newblock Logo mysql.
+\newblock
+  \url{https://upload.wikimedia.org/wikipedia/fr/thumb/6/62/MySQL.svg/1200px-MySQL.svg.png}.
+
+\bibitem{logo_mvc}
+Blogdummi.
+\newblock Logo mvc.
+\newblock
+  \url{https://blogdummi.fr/wp-content/uploads/2019/01/schema-general-architecture-mvc.png}.
+
+\bibitem{mvc_model}
+Openclassroom.
+\newblock Model de l'architecture mvc.
+\newblock
+  \url{https://openclassrooms.com/fr/courses/4670706-adoptez-une-architecture-mvc-en-php/4678736-comment-fonctionne-une-architecture-mvc}.
+
+\bibitem{logo_workbench}
+Mysql.
+\newblock Logo mysql workbench.
+\newblock
+  \url{https://img.utdstc.com/icon/f6f/11c/f6f11c75fda63dd454fa5db9610a77cfd6752be4db11010f2e4252551a4abccd:200}.
+
+\bibitem{logo_drawio}
+DrawIo.
+\newblock Logo drawio.
+\newblock
+  \url{https://store-images.s-microsoft.com/image/apps.1409.13851527096222888.2b60149a-04a5-4578-a6b2-d7b7377332d5.c22d8e97-4d44-4304-9bd2-55f9d29c0f82?mode=scale&q=90&h=200&w=200&background=%23464646}.
+
+\bibitem{draw_definition}
+www.tice education.fr.
+\newblock description de drawio.
+\newblock
+  \url{https://www.tice-education.fr/tous-les-articles-er-ressources/articles-internet/819-draw-io-un-outil-pour-dessiner-des-diagrammes-en-ligne}.
+
+\end{thebibliography}

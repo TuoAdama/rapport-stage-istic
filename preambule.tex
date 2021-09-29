@@ -1,0 +1,156 @@
+\usepackage[english,french]{babel} %% Langue à utiliser dans le document
+\usepackage[utf8]{inputenc} %% Encodage des caractères à saisir
+%\usepackage{helvet}
+\usepackage[T1]{fontenc} %% Encodage de l'affichage des caractères
+
+%%Definition des marges de notre document
+\usepackage[left=2cm,right=2cm,top=3cm,bottom=3cm]{geometry}
+
+%%Package permettant d'utiliser les messages
+\usepackage{graphicx}
+    %\graphicspath{images/}
+
+\usepackage{color}
+
+%%Modification des entêtes de chapitre  
+\usepackage[explicit]{titlesec}
+\usepackage{tikz}
+\usepackage{titletoc}
+\usepackage{xpatch}
+\definecolor{myblue}{RGB}{0,0,0}
+
+\newcommand\DoPToC{%
+    \startcontents[chapters]
+    \printcontents[chapters]{}{1}{\noindent{\color{myblue}\rule{\textwidth}{1.5pt}}\par\medskip}%
+}
+
+\usepackage{fancyhdr}
+ \setlength{\headheight}{9pt}
+  \pagestyle{fancy}
+  %\usepackage{lastpage}
+  \renewcommand\headrulewidth{0.5pt}
+  \fancyhead[L]{\scshape\leftmark\hspace{0,3cm}}
+  \renewcommand\footrulewidth{0.5pt}
+  \fancyfoot[C]{
+      \textbf{
+        \begin{tikzpicture}[baseline={([yshift=-.05ex]current bounding box.center)}]
+          \node[fill=black,circle,text=white] {{{\thepage}
+          }};
+        \end{tikzpicture}
+      }
+  }
+  \fancyhead[R]{2019-2020}
+
+  \frenchbsetup{StandardLists=true} % à inclure si on utilise \usepackage[french]{babel}
+  \usepackage{enumitem}
+  \usepackage{amssymb}
+
+	
+  
+  \usepackage{hyperref}
+	\hypersetup{colorlinks,%
+      citecolor=black,%
+      filecolor=black,%
+      linkcolor=black,%
+      urlcolor=black
+    }
+
+\usepackage{tabularx}
+\renewcommand{\tabularxcolumn}{m}    
+
+%%Utilisation tikz pour des formes dans l'entête
+\usepackage{tikz}
+\usetikzlibrary{shadows.blur}
+\usepackage{titletoc}
+
+
+\usepackage[]{titlesec} 
+\definecolor{yourcolor}{HTML}{000000}
+\definecolor{noir}{HTML}{000000}
+
+%%Couleur appliqué aux ecritures des chapitres
+\colorlet{chpnumbercolor}{black}
+\makeatletter
+\let\oldl@chapter\l@chapter
+\def\l@chapter#1#2{\oldl@chapter{#1}{\textcolor{chpnumbercolor}{#2}}}
+
+\let\old@dottedcontentsline\@dottedtocline
+\def\@dottedtocline#1#2#3#4#5{%
+	\old@dottedcontentsline{#1}{#2}{#3}{#4}{{\textcolor{chpnumbercolor}{#5}}}}
+\makeatother
+
+\makeatletter
+\xpatchcmd{\ttl@printlist}{\endgroup}{{\noindent\color{myblue}\rule{\textwidth}{1.5pt}}\vskip30pt\endgroup}{}{}
+\makeatother
+
+
+
+\titleformat%
+{\chapter}[hang]%
+{\bfseries}{%
+	\begin{minipage}[t]{0.2\linewidth}  
+		\vspace{0pt}% do not remove
+		\begin{tikzpicture}
+		\node[align=center,outer sep=0pt,text width=2.5cm,minimum height=2.5cm,fill=black,
+		font=\color{white}\fontsize{80}{90}\selectfont,align=center
+		] (num) {\thechapter};
+		\node[rounded corners,outer sep=0pt,inner sep=0pt,anchor=south,
+		font=\color{black}\Large\normalfont
+		] at ([yshift=3pt]num.north) {{\textsc{}}};
+		\end{tikzpicture}  
+	\end{minipage}%
+}
+{0pt}%
+{%
+	\begin{minipage}[t]{.8\linewidth}%
+		\vspace{1pt} % do not remove
+		\rule{\linewidth}{2.5pt}\\\vskip -1.75\baselineskip%
+		\rule{\linewidth}{.7pt}\vskip 5pt
+		\begin{center}	
+			\textsc{{\LARGE\raggedright\textsc{#1}}}
+		\end{center}
+	\end{minipage}%	
+}
+
+\titleformat{name=\chapter,numberless}[display]
+{\normalfont\color{yourcolor}}
+{
+	{%
+		\begin{minipage}[t]{1\linewidth}%
+			\vspace{1pt} % do not remove
+			\rule{\linewidth}{2.5pt}\\\vskip -1.75\baselineskip%
+			\rule{\linewidth}{.7pt}\vskip 5pt
+			\begin{center}	
+				\textsc{{\LARGE\raggedright\textsc{#1}}}
+			\end{center}
+		\end{minipage}%	
+	}
+}
+{1ex}
+{\vspace*{.0001ex}\huge\sffamily\itshape}
+[]
+
+%command to print the acutal minitoc
+\newcommand{\printmyminitoc}{%
+	\noindent\hspace{-2cm}%
+	\colorlet{chpnumbercolor}{white}%
+	\begin{tikzpicture}
+	\node[rounded corners,align=left,fill=yourcolor, blur shadow={shadow blur steps=5}, inner sep=5mm]{%
+		\color{white}%
+		\begin{minipage}{8cm}%minipage trick
+		\printcontents[chapters]{}{1}{}
+		\end{minipage}};
+	\end{tikzpicture}}
+
+\usepackage{nomencl} 
+\makenomenclature 
+\renewcommand{\nomname}{Liste des abréviations, des sigles}% Pour redéfinir le titre De cette liste
+\input{front/sigles}
+
+%\\usepackage[
+	%\	backend=biber,        % compilateur par défaut pour biblatex
+	%\	sorting=nyt,          % trier par nom, année, titre
+	%\	citestyle=authoryear, % style de citation auteur-année
+	%\	bibstyle=alphabetic,  % style de bibliographie alphabétique
+	%\	]{biblatex}
+%\addbibresource{mylit.bib}
