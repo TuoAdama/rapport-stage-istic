@@ -3,12 +3,39 @@
 	
 	Face à leur grandeur, le développement des systèmes d'information devient de plus en plus complexe. Prévoir les fonctionnalités d'un système d'information devient alors moins de en moins évidentes, c'est ainsi qu'entre en jeu la phase de conception. La phase de conception nécessite des outils permettant de mettre en place un modèle sur lequel on va s'appuyer pour réaliser notre application.
 	
-
-	\section{Présentation de UML}
+	\section{Etude comparative entre UML et MERISE}
+	\subsection{Présentation de MERISE}
+		La méthode Merise (Méthode d'étude et de réalisation informatique pour les systèmes d'entreprise) est née à la fin des années 1970 en France, avec pour objectif de définir une démarche de conception de S.I. Le principe de base repose sur la séparation des données et des traitements. L'organisation des données semble plus pérenne que la définition des traitements, qui évolue en fonction de l'évolution des métiers, des fonctions et des utilisateurs.	
+		La méthode Merise intègre trois dimensions appelées cycles : le cycle d'abstraction, le cycle de vie et le cycle de décision. Le cycle de vie décrit les phases du projet de construction du S.I. du schéma directeur à la réalisation.\cite{definition_merise}
+		
+	\subsection{Présentation de UML}
 			UML est un langage de modélisation très complet, qui couvre de nombreux aspects du développement des logiciels, comme les exigences, l’architecture, les structures et les comportements.\\
 			
 			Depuis sa normalisation, en 1997, UML a fortement évolué, passant d’un langage peu formel, principalement destiné à la documentation, à un langage suffisamment précis pour que des applications puissent être générées à partir des modèles. Cette évolution	vers une plus grande précision a cependant créé une césure entre les tenants du « tout modèle », qui demandent toujours plus de formalisme, et les développeurs, qui apprécient UML pour sa capacité à capturer en quelques dessins les grandes lignes d’une
 			application.
+	\subsection{Comparaison}
+		MERISE est une méthode d'analyse et de réalisation des systèmes d'information qui est élaborée en plusieurs étapes : schéma directeur, étude préalable, étude détaillée et la réalisation.\\
+		Alors qu'UML, est un langage de modélisation des systèmes standard, qui utilise des diagrammes pour représenter chaque aspect d'un système c'est-à-dire : statique, dynamique en s'appuyant sur la notion d'orienté objet qui est un véritable atout pour ce langage.
+	\subsection{Pourquoi le choix d'UML ?}
+	
+	Merise est encore tout à fait valable pour :
+	
+	\begin{itemize}
+		\item La modélisation des données en vue de la construction d'une base de données relationnelles, la modélisation des processus métiers d'un système d'information automatisé en partie par du logiciel,
+		\item La formalisation des besoins utilisateur dans la cadre de cahier des charges utilisateur, en vue de la conception d'un logiciel adapté.
+	\end{itemize}
+	
+	UML est idéal pour:
+	
+	\begin{itemize}
+		\item Concevoir et déployer une architecture logiciel développée dans un langage orienté objet (PHP, Java, C++, VB.Net,...).
+		\item Pour modéliser les données (le modèle de classe réduit sans méthodes et stéréotypé en entités), mais avec des lacunes que ne présentait pas l'entité relation de Merise.
+		\item Pour modéliser le fonctionnement métier (le diagramme d'activité et de cas d'utilisation) qui sont des formalismes très anciens qu'avait, en son temps, amélioré Merise...
+	\end{itemize}
+	
+	Après cette étude comparative, il est certes que nous allons adopter UML comme langage de modélisation puisque nous allons utiliser le concept de l'orienté objet ainsi en PHP comme langage pour développer notre application.
+		
+	\section{Conception avec UML}
 		\subsection{Principaux diagrammes UML}
 			UML dispose à sa version actuelle (2.5.1) de treize diagrammes qui sont regroupés en deux grandes catégories tels que les diagrammes structurels et les diagrammes de comportements.
 		\subsubsection{Diagramme structurels}
