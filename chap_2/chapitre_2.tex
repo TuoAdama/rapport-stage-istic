@@ -1,13 +1,13 @@
 \chapter{CONCEPTION ET ÉTUDE TECHNIQUE}
 	\section{Conception}
 	
-	Face à leur grandeur, le développement des systèmes d'information devient de plus en plus complexe. Prévoir les fonctionnalités du système devient alors moins évidentes, c'est ainsi qu'entre en jeu la phase de conception. La phase de conception nécessite des outils permettant de mettre en place un modèle sur lequel on va s'appuyer pour réaliser notre application.
+	Face à leur grandeur, le développement des systèmes d'information devient de plus en plus complexe. Prévoir les fonctionnalités d'un système d'information devient alors moins de en moins évidentes, c'est ainsi qu'entre en jeu la phase de conception. La phase de conception nécessite des outils permettant de mettre en place un modèle sur lequel on va s'appuyer pour réaliser notre application.
 	
 
 	\section{Présentation de UML}
 			UML est un langage de modélisation très complet, qui couvre de nombreux aspects du développement des logiciels, comme les exigences, l’architecture, les structures et les comportements.\\
 			
-			Depuis sa normalisation, en 1997, UML a fortement évolué, passant d’un langage peu	formel, principalement destiné à la documentation, à un langage suffisamment précis pour que des applications puissent être générées à partir des modèles. Cette évolution	vers une plus grande précision a cependant créé une césure entre les tenants du « tout modèle », qui demandent toujours plus de formalisme, et les développeurs, qui apprécient UML pour sa capacité à capturer en quelques dessins les grandes lignes d’une
+			Depuis sa normalisation, en 1997, UML a fortement évolué, passant d’un langage peu formel, principalement destiné à la documentation, à un langage suffisamment précis pour que des applications puissent être générées à partir des modèles. Cette évolution	vers une plus grande précision a cependant créé une césure entre les tenants du « tout modèle », qui demandent toujours plus de formalisme, et les développeurs, qui apprécient UML pour sa capacité à capturer en quelques dessins les grandes lignes d’une
 			application.
 		\subsection{Principaux diagrammes UML}
 			UML dispose à sa version actuelle (2.5.1) de treize diagrammes qui sont regroupés en deux grandes catégories tels que les diagrammes structurels et les diagrammes de comportements.
@@ -44,8 +44,8 @@
 			\end{itemize}
 		\subsubsection{Implémentation}
 			\begin{center}
-				\includegraphics[width=16cm]{chap_2/use-case.png}\cite{}
-				\captionof{figure}{Diagramme de cas d'utilisation : vue globle}
+				\includegraphics[width=16cm]{chap_2/use-case.png}
+				\captionof{figure}{Diagramme de cas d'utilisation : vue globale}
 				\label{figure9}
 			\end{center}
 		\subsubsection{Étude détaillée des cas d'utilisation}
@@ -141,7 +141,7 @@
 							Mettre à jour numéro.\newline
 							Supprimer numéro.\\
 							\hline
-							Extensions & Si aucun n'intermède n'existe alors il sera impossible d'enregistrer un nouveau numéro. \\ 
+							Extensions & Si aucun intermède n'existe alors il sera impossible d'enregistrer un nouveau numéro. \\ 
 							\hline               
 					\end{tabularx}}
 				\end{center}
@@ -223,7 +223,7 @@
 			\subsubsection{Les méthodes}
 				Les méthodes d'un objet caractérisent son comportement, c'est-à-dire l'ensemble des actions (appelées opérations) que l'objet est à même de réaliser.
 			\subsubsection{Notion de multiplicité}
-				La multiplicité définit le nombre d'instances de l'association pour une instance de la classe\cite{}.
+				La multiplicité définit le nombre d'instances de l'association pour une instance de la classe.
 				La multiplicité est définie par un nombre entier ou un intervalle de valeurs, elle est aussi la traduction d'une règle de gestion.
 				\begin{center}
 					\includegraphics{images/img-2.png}
@@ -232,7 +232,7 @@
 				\end{center}
 			\subsubsection{Les associations}
 			Les associations permettent de préciser les relations qui peuvent exister entre deux ou plusieurs objets.
-			L'association se fait entre classe et non entre les instances. Lorsque une association est
+			L'association se fait entre classe et non entre les instances. Lorsqu'une association est
 			définie entre deux classes, cela signifie que les objets instances de ces deux classes
 			peuvent être reliés entre eux.
 			\begin{center}
@@ -278,262 +278,290 @@
 	
 	\subsubsection{Description des classe}
 	
-		\begin{tabular}{|l|l|l|l|}
-			\hline
-			\multicolumn{4}{|c|}{\textbf{Classe Peronnel : représente les effectuant les opérations}}\\
-			\hline
-			
-			 & \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
-			\multirow{4}{*}{Attributs} & ID & code permettant d'identifié le personnel & Numérique \\
-			& nom & désigne le nom personnel & chaîne de caractère \\
-			& prénom & désigne le prénom de personnel & chaîne de caractère \\
-			& email & addresse électronique de l'intermed & chaîne de caractère\\
-			\hline
-		\end{tabular}
-		\captionof{table}{tableau de classe \textit{Personnel}}
-		\label{table1}
-		
-		\begin{tabular}{|l|l|l|l|}
-			\hline
-			\multicolumn{4}{|c|}{\textbf{Classe Intermed : représente les effectuant les opérations}} \\
-			
-			\hline
-			
-			& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
-			\multirow{3}{*}{Attributs} & ID & code permettant d'identifié l'intermed & numérique \\
-			
-			& code & code unique permettant d'identifier l'intermed &  chaîne de caractère \\
-			
-			& nom & désigne le nom l'intermède & chaîne de caractère \\
-			
-			& solde & désigne le solde l'intermède & numérique \\
-			\hline
-		\end{tabular}
-		\captionof{table}{tableau de classe Intermed}
-		\label{table2}
-		
-		\begin{tabular}{|l|l|l|l|}
-			\hline
-			\multicolumn{4}{|c|}{\textbf{Classe Numéro : numéro appartenant à un intermède}} \\
-			
-			\hline
-			
-			& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
-			\multirow{3}{*}{Attributs} & ID & permet d'identifier le numéro & numérique \\
-			
-			& numéro & numéro de l'intermède & chaîne de caractère \\
-			
-			& créance & créance de l'intermède sur ce numéro  & numérique \\
-			
-			\hline
-			
-		\end{tabular}
-		\captionof{table}{tableau de classe \textit{Numéro}}
-		\label{table3}
-		
-		\begin{tabular}{|l|l|l|l|}
-			\hline
-			\multicolumn{4}{|c|}{\textbf{Classe Objectif : représente les effectuant les opérations}} \\
-			
-			\hline
-			
-			& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
-			\multirow{3}{*}{Attributs} & ID & identifiant de l'objectif d'un numéro & numérique \\
-			
-			& mois & mois dans lequel l'objectif à été effectué &  chaîne de caractère \\
-			
-			& objectif & objectif du numéro &chaîne de caractère \\
-			
-			& bilan & bilan de l'objectif & numérique \\
-			
-			\hline
-			
-		\end{tabular}
-		\captionof{table}{tableau de classe \textit{objectif}}
-		\label{table4}
+		\begin{center}
+			{\renewcommand{\arraystretch}{1.5}\begin{tabularx}{\textwidth}{|l|l|l|X|}
+				\hline
+				\multicolumn{4}{|c|}{\textbf{Classe Peronnel : représente les effectuant les opérations}}\\
+				\hline
+				
+				& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
+				\multirow{4}{*}{Attributs} & ID & code permettant d'identifié le personnel & Numérique \\
+				& nom & désigne le nom personnel & chaîne de caractère \\
+				& prénom & désigne le prénom de personnel & chaîne de caractère \\
+				& email & addresse électronique de l'intermed & chaîne de caractère\\
+				\hline
+			\end{tabularx}}
+			\captionof{table}{tableau de classe \textit{Personnel}}
+			\label{classe personnel}
+		\end{center}
+	
+		\begin{center}
+			{\renewcommand{\arraystretch}{1.5}\begin{tabularx}{\textwidth}{|l|l|l|X|}
+					\hline
+					\multicolumn{4}{|c|}{\textbf{Classe Intermed : représente les effectuant les opérations}} \\
+					
+					\hline
+					
+					& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
+					\multirow{3}{*}{Attributs} & ID & code permettant d'identifié l'intermed & numérique \\
+					
+					& code & code unique permettant d'identifier l'intermed &  chaîne de caractère \\
+					
+					& nom & désigne le nom l'intermède & chaîne de caractère \\
+					
+					& solde & désigne le solde l'intermède & numérique \\
+					\hline
+			\end{tabularx}}
+			\captionof{table}{tableau de classe Intermed}
+			\label{classe intermède}
+		\end{center}
+	
+		\begin{center}
+			{\renewcommand{\arraystretch}{1.5}\begin{tabularx}{\textwidth}{|l|l|l|X|}
+					\hline
+					\multicolumn{4}{|c|}{\textbf{Classe Numéro : numéro appartenant à un intermède}} \\
+					
+					\hline
+					
+					& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
+					\multirow{3}{*}{Attributs} & ID & permet d'identifier le numéro & numérique \\
+					
+					& numéro & numéro de l'intermède & chaîne de caractère \\
+					
+					& créance & créance de l'intermède sur ce numéro  & numérique \\
+					
+					\hline
+			\end{tabularx}}
+			\captionof{table}{tableau de classe \textit{Numéro}}
+			\label{classe numero}
+		\end{center}
 		
 		
-		\begin{tabular}{|l|l|l|l|}
-			\hline
-			\multicolumn{4}{|c|}{\textbf{Classe Opération: désigne les opérations pouvant être par le personnel}} \\
-			
-			\hline
-			
-			& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
-			\multirow{3}{*}{Attributs} & ID & identifiant de l'opération & numérique \\
-			
-			& montant & montant à transféré ou à déposer & numérique\\
-			
-			& date & date à laquelle l'opération s'est effectuée & numérique \\
-			
-			& référence & chaîne de caractère pouvant identifier l'opération & chaîne de caractère\\
-			
-			& rattrapage & entier permettant de spécifier si l'opération s'est bien déroulée & entier \\
-			
-			\hline
-			
-		\end{tabular}
-		\captionof{table}{tableau de classe \textit{Opération}}
-		\label{table5}
-		
-		\begin{tabular}{|l|l|l|l|}
-			\hline
-			\multicolumn{4}{|c|}{\textbf{Classe Etat : définie l'ensemble des statut que peux pendre une opération}} \\
-			
-			\hline
-			
-			& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
-			\multirow{3}{*}{Attributs} & ID & code permettant d'identifié l'intermed & numérique \\
-			
-			& nom & nom du statut qui peut prendre les valeurs suivantes: \textit{initié}, \textit{en cours d'exécution}, \textit{exécuté}, \textit{annulé} et \textit{supprimé}\\
-			
-			\hline
-			
-		\end{tabular}
-		\captionof{table}{tableau de classe \textit{Etat}}
-		\label{table6}
-		
-		\begin{tabular}{|l|l|l|l|}
-			\hline
-			\multicolumn{4}{|c|}{\textbf{Classe Message : message de transfert après qu'une opération ait été effectuée}} \\
-			
-			\hline
-			
-			& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
-			\multirow{3}{*}{Attributs} & ID & identifiant du message & numérique \\
-			
-			& sms & message de transfert &  texte\\
-			
-			& date & date à laquelle le message a été reçu & date \\
-			
-			\hline
-			
-		\end{tabular}
-		\captionof{table}{tableau de classe \textit{message}}
-		\label{table7}
-		
-		\begin{tabular}{|l|l|l|l|}
-			\hline
-			\multicolumn{4}{|c|}{\textbf{Classe transfert : classe fille de la classe opération spécialisée dans le transfert}} \\
-			
-			\hline
-			
-			& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
-			\multirow{3}{*}{Attributs} & ID & permet d'identifier le transfert effectué & numérique \\
-			
-			& numéro & numéro sur lequel le transfert sera effectué & chaîne de caractère\\
-			
-			\hline
-			
-		\end{tabular}
-		\captionof{table}{tableau de classe \textit{transfert}}
-		\label{table15}
+		\begin{center}
+			{\renewcommand{\arraystretch}{1.5}\begin{tabularx}{\textwidth}{|l|l|l|X|}
+					\hline
+					\multicolumn{4}{|c|}{\textbf{Classe Objectif : représente les effectuant les opérations}} \\
+					
+					\hline
+					
+					& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
+					\multirow{3}{*}{Attributs} & ID & identifiant de l'objectif d'un numéro & numérique \\
+					
+					& mois & mois dans lequel l'objectif à été effectué &  chaîne de caractère \\
+					
+					& objectif & objectif du numéro &chaîne de caractère \\
+					
+					& bilan & bilan de l'objectif & numérique \\
+					
+					\hline
+			\end{tabularx}}
+			\captionof{table}{tableau de classe \textit{objectif}}
+			\label{classe objectif}
+		\end{center}
+	
+		\begin{center}
+		%	\noindent\setlength\tabcolsep{1pt}%
+			{\renewcommand{\arraystretch}{2}\begin{tabularx}{\textwidth}{|l|l|p{0.5\linewidth}|X|}
+					\hline
+					\multicolumn{4}{|c|}{\textbf{Classe Opération: désigne les opérations pouvant être par le personnel}} \\
+					
+					\hline
+					
+					& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
+					\multirow{3}{*}{Attributs} & ID & identifiant de l'opération & numérique \\
+					
+					& montant & montant à transféré ou à déposer & numérique\\
+					
+					& date & date à laquelle l'opération s'est effectuée & numérique \\
+					
+					& référence & chaîne de caractère pouvant identifier l'opération & chaîne de caractère\\
+					
+					& rattrapage & entier permettant de spécifier si l'opération s'est bien déroulée & entier \\
+					
+					\hline
+			\end{tabularx}}
+			\captionof{table}{tableau de classe \textit{Opération}}
+			\label{table5}
+		\end{center}
 		
 		
-		\begin{tabular}{|l|l|l|l|}
-			\hline
-			\multicolumn{4}{|c|}{\textbf{Classe recouvrement : classe fille de la classe \textit{opération} spécialisée dans le recouvrement}} \\
-			
-			\hline
-			
-			& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
-			\multirow{1}{*}{Attributs} & ID & permet d'identifier le recouvrement effectué & numérique \\
-			\hline
-			
-		\end{tabular}
-		\captionof{table}{tableau de classe \textit{recouvrement}}
-		\label{table16}
-		
-		\begin{tabular}{|l|l|l|l|}
-			\hline
-			\multicolumn{4}{|c|}{\textbf{Classe Facture : facture délivrée après une opération}} \\
-			\hline
-			
-			& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
-			\multirow{3}{*}{Attributs} & ID & identifiant permettant de retrouver la facture & numérique \\
-			
-			& numFac & numéro unique permettant d'identifier la facture &  chaîne de caractère \\
-			
-			& date & date à laquelle la facture a été délivrée & chaîne de caractère \\
-			
-			\hline
-			
-		\end{tabular}
-		\captionof{table}{tableau de classe \textit{facture}}
-		\label{table8}
-		
-		
-		\begin{tabular}{|l|l|l|l|}
-			\hline
-			\multicolumn{4}{|c|}{\textbf{Classe ModePaiement : représente les effectuant les opérations}} \\
-			
-			\hline
-			
-			& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
-			\multirow{3}{*}{Attributs} & ID & identifiant unique attribué à un mode paiement  & numérique \\
-			
-			& nom & nom du mode de paiement &  chaîne de caractère \\
-			
-			\hline
-			
-		\end{tabular}
-		\captionof{table}{tableau de classe \textit{ModePaiement}}
-		\label{table9}
+		\begin{center}
+			\noindent
+			{\renewcommand{\arraystretch}{2}\begin{tabularx}{\linewidth}{|l|l|p{0.5\linewidth}|X|}
+					\hline
+					\multicolumn{4}{|c|}{\textbf{Classe État : définie l'ensemble des statut que peux pendre une opération}} \\
+					
+					\hline
+					
+					& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
+					\multirow{3}{*}{Attributs} & ID & code permettant d'identifié l'intermède & numérique \\
+					
+					& nom & nom du statut qui peut prendre les valeurs suivantes: \textit{initié},
+					\textit{en cours d'exécution}, \textit{exécuté}, \textit{annulé} et \textit{supprimé} & chaine de caractère\\
+					
+					\hline
+			\end{tabularx}}
+			\captionof{table}{tableau de classe \textit{Opération}}
+			\label{classe Etat}
+		\end{center}
+	
+		\begin{center}
+			{\renewcommand{\arraystretch}{1.5}\begin{tabularx}{\textwidth}{|l|l|l|X|}
+					\hline
+					\multicolumn{4}{|c|}{\textbf{Classe Message : message de transfert après qu'une opération soit effectuée}} \\
+					
+					\hline
+					
+					& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
+					\multirow{3}{*}{Attributs} & ID & identifiant du message & numérique \\
+					
+					& sms & message de transfert &  texte\\
+					
+					& date & date à laquelle le message a été reçu & date \\
+					
+					\hline
+			\end{tabularx}}
+			\captionof{table}{tableau de classe \textit{message}}
+			\label{table7}
+		\end{center}
 		
 		
-		\begin{tabular}{|l|l|l|l|}
-			\hline
-			\multicolumn{4}{|c|}{\textbf{Classe ouverture : représente les effectuant les opérations}} \\
-			
-			\hline
-			
-			& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
-			\multirow{3}{*}{Attributs} & ID & identifiant des jours d'ouverture & numérique \\
-			
-			& jour & jour d'ouverture & chaîne de caractère \\
-			
-			& code & code d'ouverture & chaîne de caractère \\
-			\hline
-			
-		\end{tabular}
-		\captionof{table}{tableau de classe \textit{ouverture}}
-		\label{table10}
+		\begin{center}
+			{\renewcommand{\arraystretch}{1.5}\begin{tabularx}{\textwidth}{|l|l|l|X|}
+					\hline
+					\multicolumn{4}{|c|}{\textbf{Classe transfert : classe fille de la classe opération spécialisée dans le transfert}} \\
+					
+					\hline
+					
+					& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
+					\multirow{3}{*}{Attributs} & ID & permet d'identifier le transfert effectué & numérique \\
+					
+					& numéro & numéro sur lequel le transfert sera effectué & chaîne de caractère\\
+					
+					\hline
+			\end{tabularx}}
+			\captionof{table}{tableau de classe \textit{transfert}}
+			\label{table15}
+		\end{center}
+		
+	%--------------------------------------------------------------------
+		
+		\begin{center}
+			{\renewcommand{\arraystretch}{1.5}\begin{tabularx}{\textwidth}{|l|l|l|X|}
+				\hline
+				\multicolumn{4}{|c|}{\textbf{Classe recouvrement : classe spécialisée dans le recouvrement}} \\
+				
+				\hline
+				
+				& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
+				\multirow{1}{*}{Attributs} & ID & permet d'identifier le recouvrement effectué & numérique \\
+				\hline
+			\end{tabularx}}
+			\captionof{table}{tableau de classe \textit{recouvrement}}
+			\label{table16}
+		\end{center}
+	%-----------------------------------------------------------------------------
 		
 		
-		\begin{tabular}{|l|l|l|l|}
-			\hline
-			\multicolumn{4}{|c|}{\textbf{Classe agence : définie l'agence}} \\
-			
-			\hline
-			
-			& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
-			\multirow{3}{*}{Attributs} & ID & identifiant permettant d'identifier l'agence & numérique \\
-			
-			& nom & désigne le nom de l'agence& chaîne de caractère \\
-			
-			\hline
-			
-		\end{tabular}
-		\captionof{table}{tableau de classe \textit{agence}}
-		\label{table14}
+			\begin{center}
+			{\renewcommand{\arraystretch}{1.5}\begin{tabularx}{\textwidth}{|l|l|l|X|}
+					\hline
+					\multicolumn{4}{|c|}{\textbf{Classe Facture : facture délivrée après une opération}} \\
+					\hline
+					
+					& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
+					\multirow{3}{*}{Attributs} & ID & identifiant permettant de retrouver la facture & numérique \\
+					
+					& numFac & numéro unique permettant d'identifier la facture &  chaîne de caractère \\
+					
+					& date & date à laquelle la facture a été délivrée & chaîne de caractère \\
+					
+					\hline
+			\end{tabularx}}
+			\captionof{table}{tableau de classe \textit{facture}}
+			\label{table8}
+		\end{center}
+		%-----------------------------------------------------------------------------
+		
+		\begin{center}
+			{\renewcommand{\arraystretch}{1.5}\begin{tabularx}{\textwidth}{|l|l|l|X|}
+					\hline
+					\multicolumn{4}{|c|}{\textbf{Classe ModePaiement : représente les effectuant les opérations}} \\
+					
+					\hline
+					
+					& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
+					\multirow{3}{*}{Attributs} & ID & identifiant unique attribué à un mode paiement  & numérique \\
+					
+					& nom & nom du mode de paiement &  chaîne de caractère \\
+					
+					\hline
+			\end{tabularx}}
+			\captionof{table}{tableau de classe \textit{ModePaiement}}
+			\label{table9}
+		\end{center}
+		%-----------------------------------------------------------------------------
+		
+		\begin{center}
+			{\renewcommand{\arraystretch}{1.5}\begin{tabularx}{\textwidth}{|l|l|l|X|}
+					\hline
+					\multicolumn{4}{|c|}{\textbf{Classe ouverture : représente les effectuant les opérations}} \\
+					
+					\hline
+					
+					& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
+					\multirow{3}{*}{Attributs} & ID & identifiant des jours d'ouverture & numérique \\
+					
+					& jour & jour d'ouverture & chaîne de caractère \\
+					
+					& code & code d'ouverture & chaîne de caractère \\
+					\hline
+			\end{tabularx}}
+			\captionof{table}{tableau de classe \textit{ouverture}}
+			\label{table10}
+		\end{center}
+		%-----------------------------------------------------------------------------
 		
 		
-		\begin{tabular}{|l|l|l|l|}
-			\hline
-			\multicolumn{4}{|c|}{\textbf{Classe Secteur : secteur au lequel appartient l'agence}} \\
-			
-			\hline
-			
-			& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
-			\multirow{3}{*}{Attributs} & ID & identifiant du secteur & numérique \\
-			
-			& nom & nom du secteur &  chaîne de caractère \\
-			
-			\hline
-			
-		\end{tabular}
-		\captionof{table}{tableau de classe \textit{secteur}}
-		\label{table11}
+		\begin{center}
+			{\renewcommand{\arraystretch}{1.5}\begin{tabularx}{\textwidth}{|l|l|l|X|}
+				\hline
+				\multicolumn{4}{|c|}{\textbf{Classe agence : définie l'agence}} \\
+				
+				\hline
+				
+				& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
+				\multirow{3}{*}{Attributs} & ID & identifiant permettant d'identifier l'agence & numérique \\
+				
+				& nom & désigne le nom de l'agence& chaîne de caractère \\
+				
+				\hline
+			\end{tabularx}}
+			\captionof{table}{tableau de classe \textit{agence}}
+			\label{table14}
+		\end{center}
+		%-----------------------------------------------------------------------------
+		
+		
+		\begin{center}
+			{\renewcommand{\arraystretch}{1.5}\begin{tabularx}{\textwidth}{|l|l|l|X|}
+					\hline
+					\multicolumn{4}{|c|}{\textbf{Classe Secteur : secteur au lequel appartient l'agence}} \\
+					
+					\hline
+					
+					& \textbf{Nom} & \textbf{Description} & \textbf{Type} \\
+					\multirow{3}{*}{Attributs} & ID & identifiant du secteur & numérique \\
+					
+					& nom & nom du secteur &  chaîne de caractère \\
+					
+					\hline
+			\end{tabularx}}
+			\captionof{table}{tableau de classe \textit{secteur}}
+			\label{table11}
+		\end{center}
+		%-----------------------------------------------------------------------------
+		
 		
 		\section{Schéma relationnel}
 			\subsection{Modèle logique des données ou MLD}

@@ -9,35 +9,41 @@
 	
 	
 \section{Cadre du projet} % Developpement web %
-	Dans le cadre de notre mémoire nous avons concentrés notre énergie sur une des branches de l'entreprise qui est le rechargements des clients aussi appelés intermèdes.
+	Dans le cadre de notre mémoire nous nous sommes concentrés sur une des branches de l'entreprise qui est le rechargement des clients qui sont aussi appelés intermèdes.
 \subsection{Problématique}
 		Dans les années antérieures, l'entreprise ONEMART disposait d'une application VB déjà compilée avec toutes les plages de numéros dont elle disposait. Ainsi lors du passage des numérotations à dix chiffres, l'entreprise faisait face à un très gros problème qui était de mettre à jour les numéros des intermèdes vu que le code source de l'application n'était plus disponible.
-		\paragraph{}A son siège, l'entreprise disposait d'un PC central câblé en local avec un téléphone d'ancienne génération(Sony Ericsson) équipé d'une puce \textbf{emaster} qui récupérait par câble les opérations effectuées (Recouvrement et transfert) sur le PC pour les valider. Ainsi, pour faire des rechargements et transferts depuis un point de vente distant, l'on devait se connecter par VPN (Virtual Private Network) pour avoir accès au PC central.En effet, puisque le VPN fait transiter la connexion de l'utilisateur par un serveur distant, ce qui rajoute une étape intermédiaire donc l'on fait face débit plus et lent moins stable.
-		\paragraph{}Aussi sur le point sécuritaire, il est important de noter que les opérations se faisaient manuellement sachant bien que les montants de transferts était très élevés ce qui peut très problématique du moment où l'on peut être exposé aux problèmes suivants: Se tromper sur le montant de transfert, transférer l'argent d'un intermède	à un autre.\\
+		\paragraph{}A son siège, l'entreprise disposait d'un PC central câblé en local avec un téléphone d'ancienne génération(Sony Ericsson) équipé d'une puce \textbf{emaster} qui récupérait par câble les opérations effectuées (Recouvrement et transfert) sur le PC pour les valider. Ainsi, pour faire des rechargements et transferts depuis un point de vente distant, l'on devait se connecter par VPN (Virtual Private Network) pour avoir accès au PC central. En effet, puisque le VPN fait transiter la connexion de l'utilisateur par un serveur distant, ce qui rajoute une étape intermédiaire lors de la transmission des informations. Ainsi l'on fait face à un débit de transmission moins stable.
+		\paragraph{}Aussi sur le point sécuritaire, il est important de noter que les opérations se faisaient manuellement sachant bien que les montants de transfert étaient très élevés ce qui pouvait être très problématique du moment où l'on peut être exposé aux problèmes suivants: Se tromper sur le montant de transfert, transférer l'argent d'un intermède	à un autre.\\
 		
 \subsection{Objectifs du projet}
 	Face aux problèmes cités ci-dessus, notre application aura pour objectifs de :
 	\begin{itemize}
 		
-		\item Mettre en place une application WEB car en plus d’être accessible sur toutes plateforme, elle et est simple et nécessite aucune installation.\\
+		\item Mettre en place une application WEB car en plus d’être accessible sur toutes les plateforme (peu importe le système d'exploitation de l'utilisateur), elle est simple et nécessite aucune installation.\\
 		
-		\item Que de passer par VPN (Virtual Private Network) pour avoir accès au PC central, l’application sera accessible par tous que ce soit en local ou sur internet.\\
 		
-		\item Après avoir effectuée les opérations et les stocker dans la base de données, l’application WEB pour les récupérer et les renvoyer à l’API (Application Programming Interface). En effet, l’interaction par API permettra au téléphone mobile de se passe par la connexion filaire pour avoir accès aux données et valider l'opération.
 		
-		\item 
+		\item Que de passer par VPN (Virtual Private Network) pour avoir accès au PC central, l’application sera accessible peu importe la situation géographique de l'utilisateur.\\
+		
+		\item Fournir une interopérabilité entre l'application et d'autre système externe. C'est à dire rendre accessible par API (Application Programming Interface) les informations de transfert et recouvrement après chaque opération pour qu'un autre système puissent les récupérer et les valider par \textbf{USSD}.\\
+		
+		\item Offrir plusieurs modes de paiement aux intermèdes lors des transferts: comptant, crédit, bancaire, etc...
+		
+		\item Fournir une facture après chaque opération.
+		
 		
 	\end{itemize}
 \subsection{Élaboration du cahier des charges}
 	
+	Dans cette section, nous allons définir les différentes charges que notre application devra respecter lors de la conception.
+	L'application aura pour charge :
 	\begin{itemize}
-		\item Créer un point d'entrer dans lequel les données seront accessible dans l'application.\\
+		\item Créer un point d'entrée par lequel les données seront accessible par un autre système externe.\\
 		\item Persister les messages de transferts et recouvrement\\
-		\item Sauvegarder les historique de transfert.\\
-		\item Gérer la liste des intermèdes en ayant la possibilité de modifier, ajouter et supprimer.\\
+		\item Sauvegarder les historiques de transfert.\\
+		\item Gérer la liste des intermèdes en ayant la possibilité de la modifier, ajouter et supprimer sans oublier de leur attribuer des numéros.\\
 		\item Gestion du mode de paiement (paiement par carte bancaire, crédit ou comptant).\\
-		\item Élaboration de facture après chaque opération.\\
-		\item Élaboration d'une facture après chaque opération avec possibilité de la télécharger.\\
+		\item Élaboration d'une facture après chaque opération avec la possibilité de la télécharger.\\
 		\item Gérer l'état des opérations:\\
 			\begin{itemize}
 				\item[$\bullet$]  état initié : Lorsque l'opération vient d'être effectuée.\\
@@ -48,19 +54,19 @@
 	\end{itemize}
 
 \subsection{Planification de l'application}
-	Que l’on soit chef d’équipe ou responsable de sa propre activité, bien planifier ses projets est essentiel pour être efficace. Cela permet d’organiser son temps dépendamment du travail à réaliser, et de garantir son efficacité sur le long terme. Ainsi la planification d'une application passe par plusieurs étapes(qui peux dépendre d'une application à autre ) telle que:\\
+	Que l’on soit chef d’équipe ou responsable de sa propre activité, bien planifier ses projets est essentiel pour être efficace. Cela permet d’organiser son temps dépendamment du travail à réaliser, et de garantir son efficacité sur le long terme. Ainsi la planification d'une application passe par plusieurs étapes(qui peux dépendre d'une application à une autre ) telle que:\\
 	
 	\begin{itemize}
-		\item Étape n° 1 : \textbf{analyse fonctionnelle et définition des objectifs} : Cette partie consistera à rechercher et à caractériser les fonctions offertes par notre application pour satisfaire les différents besoins de l'agence.\\
+		\item Étape n° 1 : \textbf{analyse fonctionnelle et définition des objectifs} : Cette partie consistera à rechercher et à caractériser les fonctions offertes par notre application pour satisfaire les différents besoins du client.\\
 		\item Étape n° 2 : \textbf{conception détaillée}: La phase de conception détaillée donne lieu à la rédaction du cahier des charges opérationnel. C'est elle qui précisera les différents éléments de dimensionnement du projet.\cite{planification} C'est aussi dans cette étape qu'entre la modélisation du système avec des méthodes de modélisations comme MERISE.\\
-		\item Étape n° 3 : \textbf{développement du projet}: C'est dans partie qu'entre en jeu la partie technique de l'application. Cette étapes exige la maîtrise de la langage de programmation.\\
+		\item Étape n° 3 : \textbf{développement du projet}: C'est dans cette  partie qu'entre en jeu la partie technique de l'application. Cette étapes exige la maîtrise d'au moins un langage de programmation.\\
 		\item Étape n° 4 : \textbf{Phase de tests}:
 		%Tests unitaires, tests d'integration ,tests de validation%
-		Cette phase un ensemble de test(tests unitaires, tests d'intégration et tests de validation) qui permettra de retrouver les erreurs moins évidentes qui n'ont pas été détectées pendant la phase de développement.\\
+		C'est l'ensemble des tests(tests unitaires, tests d'intégration et tests de validation) qui permettront de retrouver les erreurs moins évidentes qui n'ont pas été détectées pendant la phase de développement.\\
 		\item Étape n° 5 : \textbf{recette}: Permet de s'assurer que l'application développée correspond bien aux exigences fixées par le client.\\
 		\item Étape n° 6 : \textbf{mise en production}: Déploiement de l'application.\\
-		\item Étape n° 7 : \textbf{maintenance}:On entend par maintenance, l'ensemble des modifications mises en place après la mise en oeuvre afin de corriger des bugs, améliorer les performances ou encore l'adapter à une modification de son environnement.\cite{planification}
+		\item Étape n° 7 : \textbf{maintenance}: On entend par maintenance, l'ensemble des modifications mises en place après la mise en œuvre de l'application en production afin de corriger les bogues, améliorer les performances ou encore l'adapter à une modification de son environnement.\cite{planification}
 	\end{itemize}
 	
 \section{Conclusion}
-	Dans ce chapitre nous avons présenté ONEMART ainsi que ses différents activités.Nous avons cadré le projet sur lequel tient notre mémoire en définissant la problématique, les objectifs, le cahier des charges et enfin plan sur lequel se déroulera le développement de l'application.
+	Dans ce chapitre nous avons présenté \textbf{ONEMART} ainsi que ses différentes activités. Nous avons cadré le projet sur lequel tient notre mémoire en définissant la problématique, les objectifs, le cahier des charges et enfin le plan sur lequel se déroulera le développement de l'application. Le prochain chapitre sera dédié à la conception et à l'analyse des besoins de l'entreprise.

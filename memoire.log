@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.14)  29 SEP 2021 09:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.14)  9 JAN 2022 20:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -841,22 +841,22 @@ LaTeX Warning: Unused global option(s):
 (./memoire.aux)
 \openout1 = `memoire.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -916,7 +916,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box67
-Package hyperref Info: Link coloring ON on input line 87.
+Package hyperref Info: Link coloring ON on input line 88.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -929,44 +929,113 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count311
 )
-LaTeX Info: Redefining \ref on input line 87.
-LaTeX Info: Redefining \pageref on input line 87.
-LaTeX Info: Redefining \nameref on input line 87.
+LaTeX Info: Redefining \ref on input line 88.
+LaTeX Info: Redefining \pageref on input line 88.
+LaTeX Info: Redefining \nameref on input line 88.
 
 (./memoire.out) (./memoire.out)
 \@outlinefile=\write5
 \openout5 = `memoire.out'.
 
-LaTeX Info: Redefining \degres on input line 87.
-LaTeX Info: Redefining \dots on input line 87.
+LaTeX Info: Redefining \degres on input line 88.
+LaTeX Info: Redefining \dots on input line 88.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 87.
+(french.ldf)             reported on input line 88.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 87.
-LaTeX Info: Redefining \up on input line 87.
+(french.ldf)             reported on input line 88.
+LaTeX Info: Redefining \up on input line 88.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (./page_de_garde/page_de_garde.tex)
-(./remerciements/remerciements.tex) (./dedicaces/dedicaces.tex [1
+ (./page_de_garde/page_de_garde.tex
+<images/una.png, id=216, 157.87135pt x 150.9799pt>
+File: images/una.png Graphic file (type png)
+<use images/una.png>
+Package pdftex.def Info: images/una.png  used on input line 22.
+(pdftex.def)             Requested size: 78.93547pt x 75.48976pt.
 
+Overfull \hbox (28.88402pt too wide) in paragraph at lines 22--23
+ [] 
+ []
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./resumes/resumes.tex [2
+<images/sfa.jpg, id=218, 141.328pt x 137.48927pt>
+File: images/sfa.jpg Graphic file (type jpg)
+<use images/sfa.jpg>
+Package pdftex.def Info: images/sfa.jpg  used on input line 30.
+(pdftex.def)             Requested size: 70.66382pt x 68.74446pt.
 
-]) [3
+Overfull \hbox (20.61237pt too wide) in paragraph at lines 30--31
+ [] 
+ []
 
-]
-(./memoire.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 58--74
+$[]$ $[]$ 
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/una.png> <./image
+s/sfa.jpg>]) (./remerciements/remerciements.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+) (./dedicaces/dedicaces.texpdfTeX warning (ext4): destination with the same id
+entifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            *{Dédicaces} [1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+) (./resumes/resumes.tex [2
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
+
+ []
+
+) (./abstract/abstract.tex [3
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 3--17
+
+ []
+
 ) [4
+
+] (./memoire.toc [5
 
 ])
 \tf@toc=\write6
@@ -995,9 +1064,18 @@ This may cause the page layout to be inconsistent, however.
 (./liste_abreviations/liste_abreviations.tex [4])
 (./introduction_generale/introduction_generale.tex [5
 
-])
-(./chap_1/chapitre_1.texpdfTeX warning (ext4): destination with the same identi
-fier (name{page.1}) has been already used, duplicate ignored
+]
+Underfull \hbox (badness 10000) in paragraph at lines 3--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+ []
+
+) (./chap_1/chapitre_1.texpdfTeX warning (ext4): destination with the same iden
+tifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
@@ -1034,22 +1112,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
@@ -1057,30 +1125,15 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 		\item G
-              érer la liste des intermèdes en ayant la possibilité de mod...
+l.41 		\item C
+              réer un point d'entrée par lequel les données seront access...
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
@@ -1100,37 +1153,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--60
-
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.60 		\item �
-              �tape n° 5 : \textbf{recette}: Permet de s'assurer que l'appl...
-[4]
 Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
@@ -1140,7 +1192,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-) (./chap_2/chapitre_2.tex [5]
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.62 		\item �
+              �tape n° 3 : \textbf{développement du projet}: C'est dans ce...
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+) (./chap_2/chapitre_2.texpdfTeX warning (ext4): destination with the same iden
+tifier (name{page.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {CONCEPTION ET ÉTUDE TECHNIQUE} [5]
 Chapitre 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
@@ -1152,14 +1235,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
+[6
 
+]
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
-[6
 
-]
 Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
@@ -1200,7 +1283,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
  []
 
 [7]
-<chap_2/use-case.png, id=451, 781.92125pt x 526.96875pt>
+<chap_2/use-case.png, id=490, 781.92125pt x 526.96875pt>
 File: chap_2/use-case.png Graphic file (type png)
 <use chap_2/use-case.png>
 Package pdftex.def Info: chap_2/use-case.png  used on input line 47.
@@ -1212,7 +1295,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [8 <./chap_2/use-case.png>] [9]
-<chap_2/gestion-compte.png, id=465, 603.25375pt x 468.75125pt>
+<chap_2/gestion-compte.png, id=504, 603.25375pt x 468.75125pt>
 File: chap_2/gestion-compte.png Graphic file (type png)
 <use chap_2/gestion-compte.png>
 Package pdftex.def Info: chap_2/gestion-compte.png  used on input line 80.
@@ -1224,7 +1307,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [10 <./chap_2/gestion-compte.png>]
-<chap_2/use-intermede.png, id=472, 653.44125pt x 547.04375pt>
+<chap_2/use-intermede.png, id=510, 653.44125pt x 547.04375pt>
 File: chap_2/use-intermede.png Graphic file (type png)
 <use chap_2/use-intermede.png>
 Package pdftex.def Info: chap_2/use-intermede.png  used on input line 108.
@@ -1241,7 +1324,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--146
  []
 
 [11 <./chap_2/use-intermede.png>]
-<chap_2/gestion-operation.png, id=478, 698.61pt x 524.96124pt>
+<chap_2/gestion-operation.png, id=516, 698.61pt x 524.96124pt>
 File: chap_2/gestion-operation.png Graphic file (type png)
 <use chap_2/gestion-operation.png>
 Package pdftex.def Info: chap_2/gestion-operation.png  used on input line 152.
@@ -1279,7 +1362,7 @@ n de ma-ni�re
  []
 
 [13 <./chap_2/gestion-operation.png>]
-<chap_2/message.png, id=489, 517.935pt x 326.21875pt>
+<chap_2/message.png, id=526, 517.935pt x 326.21875pt>
 File: chap_2/message.png Graphic file (type png)
 <use chap_2/message.png>
 Package pdftex.def Info: chap_2/message.png  used on input line 183.
@@ -1291,7 +1374,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [14] [15 <./chap_2/message.png>]
-<images/img-1.jpg, id=500, 375.804pt x 161.1621pt>
+<images/img-1.jpg, id=538, 375.804pt x 161.1621pt>
 File: images/img-1.jpg Graphic file (type jpg)
 <use images/img-1.jpg>
 Package pdftex.def Info: images/img-1.jpg  used on input line 217.
@@ -1302,7 +1385,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 218.
 See the caption package documentation for explanation.
 
-<images/img-2.png, id=502, 280.04625pt x 189.70876pt>
+<images/img-2.png, id=540, 280.04625pt x 189.70876pt>
 File: images/img-2.png Graphic file (type png)
 <use images/img-2.png>
 Package pdftex.def Info: images/img-2.png  used on input line 229.
@@ -1313,7 +1396,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [16 <./images/img-1.jpg>]
-<images/assoc-1.png, id=513, 561.09625pt x 131.49126pt>
+<images/assoc-1.png, id=550, 561.09625pt x 131.49126pt>
 File: images/assoc-1.png Graphic file (type png)
 <use images/assoc-1.png>
 Package pdftex.def Info: images/assoc-1.png  used on input line 239.
@@ -1399,7 +1482,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
 
-<images/diagramme.png, id=522, 779.91376pt x 603.25375pt>
+<images/diagramme.png, id=559, 779.91376pt x 603.25375pt>
 File: images/diagramme.png Graphic file (type png)
 <use images/diagramme.png>
 Package pdftex.def Info: images/diagramme.png  used on input line 275.
@@ -1411,310 +1494,312 @@ See the caption package documentation for explanation.
 
 [18]
 
-Package caption Warning: \captionsetup{type*=...} or \captionof
-(caption)                outside box or environment on input line 293.
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 294.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 293.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 312.
+(caption)                particular \caption on input line 315.
 See the caption package documentation for explanation.
 
 [19 <./images/diagramme.png>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 331.
+(caption)                particular \caption on input line 335.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 352.
+(caption)                particular \caption on input line 358.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 376.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (69.32236pt too wide) in paragraph at lines 356--376
-[][] 
- []
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 393.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (250.203pt too wide) in paragraph at lines 379--393
-[][] 
- []
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 412.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 429.
+(caption)                particular \caption on input line 383.
 See the caption package documentation for explanation.
 
 [20]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 444.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (32.5525pt too wide) in paragraph at lines 433--444
-[][] 
- []
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 462.
+(caption)                particular \caption on input line 404.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 480.
+(caption)                particular \caption on input line 424.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 499.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 517.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 535.
+(caption)                particular \caption on input line 443.
 See the caption package documentation for explanation.
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 544--545
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 546--547
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 548--549
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 550--551
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 553--554
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 555--556
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 557--558
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 559--560
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--562
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 563--564
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 565--566
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 567--568
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 569--570
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 571--572
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 573--574
-
- []
-
-[22]
-<images/database.png, id=549, 1527.7075pt x 1386.17876pt>
-File: images/database.png Graphic file (type png)
-<use images/database.png>
-Package pdftex.def Info: images/database.png  used on input line 579.
-(pdftex.def)             Requested size: 500.484pt x 454.11964pt.
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 460.
+See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 580.
+(caption)                particular \caption on input line 481.
 See the caption package documentation for explanation.
 
-[23]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 500.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 520.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 540.
+See the caption package documentation for explanation.
+
+[22]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 560.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 572--573
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 574--575
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 576--577
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 578--579
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 581--582
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 583--584
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 585--586
 
  []
 
-[24 <./images/database.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 587--588
 
  []
 
-<chap_2/html5.png, id=561, 770.88pt x 770.88pt>
-File: chap_2/html5.png Graphic file (type png)
-<use chap_2/html5.png>
-Package pdftex.def Info: chap_2/html5.png  used on input line 592.
-(pdftex.def)             Requested size: 56.9055pt x 56.89601pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 593.
-See the caption package documentation for explanation.
-
-<chap_2/css3.png, id=562, 189.70876pt x 268.00125pt>
-File: chap_2/css3.png Graphic file (type png)
-<use chap_2/css3.png>
-Package pdftex.def Info: chap_2/css3.png  used on input line 602.
-(pdftex.def)             Requested size: 56.9055pt x 80.38872pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 603.
-See the caption package documentation for explanation.
-
-<chap_2/bootstrap.png, id=563, 1027.84pt x 863.225pt>
-File: chap_2/bootstrap.png Graphic file (type png)
-<use chap_2/bootstrap.png>
-Package pdftex.def Info: chap_2/bootstrap.png  used on input line 612.
-(pdftex.def)             Requested size: 142.26378pt x 119.46764pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 613.
-See the caption package documentation for explanation.
-
-[25 <./chap_2/html5.png> <./chap_2/css3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 620--621
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 589--590
 
  []
 
-<chap_2/alpine.png, id=575, 1003.75pt x 270.00874pt>
+
+Overfull \hbox (7.97072pt too wide) in paragraph at lines 591--592
+[]\T1/cmr/bx/n/12 OPERATION\T1/cmr/m/n/12 ($[]$, #per-son-nel_id, #nu-mero_id, 
+#mo-de-paie-ment_id, #sta-tut_id, #etat_id,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 591--592
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 593--594
+
+ []
+
+
+Overfull \hbox (6.2767pt too wide) in paragraph at lines 595--596
+[]\T1/cmr/bx/n/12 TRANSFERT\T1/cmr/m/n/12 ($[]$,#personnel_id, #nu-mero_id, #mo
+-de-paie-ment_id, #sta-tut_id, #etat_id,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 595--596
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 599--600
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--602
+
+ []
+
+<images/database.png, id=589, 1527.7075pt x 1386.17876pt>
+File: images/database.png Graphic file (type png)
+<use images/database.png>
+Package pdftex.def Info: images/database.png  used on input line 607.
+(pdftex.def)             Requested size: 500.484pt x 454.11964pt.
+
+Package caption Warning: \captionsetup{type*=...} or \captionof
+(caption)                outside box or environment on input line 608.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 608.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 607--608
+[][] 
+ []
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 613--614
+
+ []
+
+[25 <./images/database.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 615--616
+
+ []
+
+<chap_2/html5.png, id=601, 770.88pt x 770.88pt>
+File: chap_2/html5.png Graphic file (type png)
+<use chap_2/html5.png>
+Package pdftex.def Info: chap_2/html5.png  used on input line 620.
+(pdftex.def)             Requested size: 56.9055pt x 56.89601pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 621.
+See the caption package documentation for explanation.
+
+<chap_2/css3.png, id=602, 189.70876pt x 268.00125pt>
+File: chap_2/css3.png Graphic file (type png)
+<use chap_2/css3.png>
+Package pdftex.def Info: chap_2/css3.png  used on input line 630.
+(pdftex.def)             Requested size: 56.9055pt x 80.38872pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 631.
+See the caption package documentation for explanation.
+
+<chap_2/bootstrap.png, id=603, 1027.84pt x 863.225pt>
+File: chap_2/bootstrap.png Graphic file (type png)
+<use chap_2/bootstrap.png>
+Package pdftex.def Info: chap_2/bootstrap.png  used on input line 640.
+(pdftex.def)             Requested size: 142.26378pt x 119.46764pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 641.
+See the caption package documentation for explanation.
+
+[26 <./chap_2/html5.png> <./chap_2/css3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 648--649
+
+ []
+
+<chap_2/alpine.png, id=617, 1003.75pt x 270.00874pt>
 File: chap_2/alpine.png Graphic file (type png)
 <use chap_2/alpine.png>
-Package pdftex.def Info: chap_2/alpine.png  used on input line 623.
+Package pdftex.def Info: chap_2/alpine.png  used on input line 651.
 (pdftex.def)             Requested size: 284.52756pt x 76.53716pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 624.
-See the caption package documentation for explanation.
-
-<chap_2/laravel.png, id=577, 2208.25pt x 1104.125pt>
-File: chap_2/laravel.png Graphic file (type png)
-<use chap_2/laravel.png>
-Package pdftex.def Info: chap_2/laravel.png  used on input line 632.
-(pdftex.def)             Requested size: 441.64218pt x 220.82109pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 633.
-See the caption package documentation for explanation.
-
-[26 <./chap_2/bootstrap.png> <./chap_2/alpine.png>]
-<chap_2/livewire.png, id=589, 473.51906pt x 238.64156pt>
-File: chap_2/livewire.png Graphic file (type png)
-<use chap_2/livewire.png>
-Package pdftex.def Info: chap_2/livewire.png  used on input line 651.
-(pdftex.def)             Requested size: 284.11362pt x 143.18602pt.
-
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 652.
 See the caption package documentation for explanation.
 
-[27 <./chap_2/laravel.png>] [28 <./chap_2/livewire.png>]
-<chap_2/mysql.png, id=606, 1204.5pt x 623.32875pt>
+<chap_2/laravel.png, id=619, 2208.25pt x 1104.125pt>
+File: chap_2/laravel.png Graphic file (type png)
+<use chap_2/laravel.png>
+Package pdftex.def Info: chap_2/laravel.png  used on input line 660.
+(pdftex.def)             Requested size: 441.64218pt x 220.82109pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 661.
+See the caption package documentation for explanation.
+
+[27 <./chap_2/bootstrap.png> <./chap_2/alpine.png>]
+<chap_2/livewire.png, id=631, 473.51906pt x 238.64156pt>
+File: chap_2/livewire.png Graphic file (type png)
+<use chap_2/livewire.png>
+Package pdftex.def Info: chap_2/livewire.png  used on input line 679.
+(pdftex.def)             Requested size: 284.11362pt x 143.18602pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 680.
+See the caption package documentation for explanation.
+
+[28 <./chap_2/laravel.png>] [29 <./chap_2/livewire.png>]
+<chap_2/mysql.png, id=646, 1204.5pt x 623.32875pt>
 File: chap_2/mysql.png Graphic file (type png)
 <use chap_2/mysql.png>
-Package pdftex.def Info: chap_2/mysql.png  used on input line 671.
+Package pdftex.def Info: chap_2/mysql.png  used on input line 699.
 (pdftex.def)             Requested size: 240.89574pt x 124.66353pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 672.
+(caption)                particular \caption on input line 700.
 See the caption package documentation for explanation.
 
-<chap_2/mvc.png, id=608, 611.28375pt x 328.22626pt>
+<chap_2/mvc.png, id=648, 611.28375pt x 328.22626pt>
 File: chap_2/mvc.png Graphic file (type png)
 <use chap_2/mvc.png>
-Package pdftex.def Info: chap_2/mvc.png  used on input line 690.
+Package pdftex.def Info: chap_2/mvc.png  used on input line 718.
 (pdftex.def)             Requested size: 305.64113pt x 164.11272pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 691.
+(caption)                particular \caption on input line 719.
 See the caption package documentation for explanation.
 
-[29 <./chap_2/mysql.png>]
-<chap_2/workbench.jpeg, id=617, 225.84375pt x 225.84375pt>
+[30 <./chap_2/mysql.png>]
+<chap_2/workbench.jpeg, id=657, 225.84375pt x 225.84375pt>
 File: chap_2/workbench.jpeg Graphic file (type jpg)
 <use chap_2/workbench.jpeg>
-Package pdftex.def Info: chap_2/workbench.jpeg  used on input line 705.
+Package pdftex.def Info: chap_2/workbench.jpeg  used on input line 733.
 (pdftex.def)             Requested size: 112.92159pt x 112.92159pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 706.
+(caption)                particular \caption on input line 734.
 See the caption package documentation for explanation.
 
-[30 <./chap_2/mvc.png>]
-<chap_2/drawio.png, id=629, 48.18pt x 48.18pt>
+[31 <./chap_2/mvc.png>]
+<chap_2/drawio.png, id=669, 48.18pt x 48.18pt>
 File: chap_2/drawio.png Graphic file (type png)
 <use chap_2/drawio.png>
-Package pdftex.def Info: chap_2/drawio.png  used on input line 713.
+Package pdftex.def Info: chap_2/drawio.png  used on input line 741.
 (pdftex.def)             Requested size: 96.35971pt x 96.35971pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 714.
+(caption)                particular \caption on input line 742.
 See the caption package documentation for explanation.
 
-) (./chap_3/chapitre_3.tex [31 <./chap_2/workbench.jpeg> <./chap_2/drawio.png>]
+) (./chap_3/chapitre_3.tex [32 <./chap_2/workbench.jpeg> <./chap_2/drawio.png>]
 Chapitre 3.
-<chap_3/authentification.png, id=640, 774.895pt x 585.18625pt>
+<chap_3/authentification.png, id=681, 774.895pt x 585.18625pt>
 File: chap_3/authentification.png Graphic file (type png)
 <use chap_3/authentification.png>
 Package pdftex.def Info: chap_3/authentification.png  used on input line 5.
@@ -1724,10 +1809,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 6.
 See the caption package documentation for explanation.
 
-[32
+[33
 
  <./chap_3/authentification.png>]
-<chap_3/utilisateurs.png, id=646, 1371.1225pt x 608.2725pt>
+<chap_3/utilisateurs.png, id=687, 1371.1225pt x 608.2725pt>
 File: chap_3/utilisateurs.png Graphic file (type png)
 <use chap_3/utilisateurs.png>
 Package pdftex.def Info: chap_3/utilisateurs.png  used on input line 12.
@@ -1743,7 +1828,7 @@ Overfull \hbox (47.95529pt too wide) in paragraph at lines 12--13
  [] 
  []
 
-<chap_3/ajouter_agent.png, id=647, 1358.07375pt x 608.2725pt>
+<chap_3/ajouter_agent.png, id=688, 1358.07375pt x 608.2725pt>
 File: chap_3/ajouter_agent.png Graphic file (type png)
 <use chap_3/ajouter_agent.png>
 Package pdftex.def Info: chap_3/ajouter_agent.png  used on input line 19.
@@ -1758,8 +1843,8 @@ Overfull \hbox (42.73589pt too wide) in paragraph at lines 19--20
  [] 
  []
 
-[33 <./chap_3/utilisateurs.png>]
-<chap_3/roles.png, id=653, 1099.10625pt x 547.04375pt>
+[34 <./chap_3/utilisateurs.png>]
+<chap_3/roles.png, id=694, 1099.10625pt x 547.04375pt>
 File: chap_3/roles.png Graphic file (type png)
 <use chap_3/roles.png>
 Package pdftex.def Info: chap_3/roles.png  used on input line 26.
@@ -1770,179 +1855,236 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 27.
 See the caption package documentation for explanation.
 
-<chap_3/ajouter_intermede.png, id=654, 1099.10625pt x 530.98375pt>
-File: chap_3/ajouter_intermede.png Graphic file (type png)
-<use chap_3/ajouter_intermede.png>
-Package pdftex.def Info: chap_3/ajouter_intermede.png  used on input line 32.
-(pdftex.def)             Requested size: 439.6347pt x 212.38972pt.
+<chap_3/ajouter-intermed-etat-civil.png, id=695, 1301.86375pt x 537.00626pt>
+File: chap_3/ajouter-intermed-etat-civil.png Graphic file (type png)
+<use chap_3/ajouter-intermed-etat-civil.png>
+Package pdftex.def Info: chap_3/ajouter-intermed-etat-civil.png  used on input 
+line 33.
+(pdftex.def)             Requested size: 520.73628pt x 214.79869pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 33.
+(caption)                particular \caption on input line 34.
 See the caption package documentation for explanation.
 
-[34 <./chap_3/ajouter_agent.png> <./chap_3/roles.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
+Overfull \hbox (20.25229pt too wide) in paragraph at lines 33--34
+ [] 
  []
 
-<chap_3/liste_intermède.png, id=662, 1351.0475pt x 602.25pt>
-File: chap_3/liste_intermède.png Graphic file (type png)
-<use chap_3/liste_intermède.png>
-Package pdftex.def Info: chap_3/liste_intermède.png  used on input line 39.
-(pdftex.def)             Requested size: 553.93307pt x 246.92409pt.
+[35 <./chap_3/ajouter_agent.png> <./chap_3/roles.png>]
+<chap_3/ajout-intermed-numeros.png, id=702, 1289.81876pt x 500.87125pt>
+File: chap_3/ajout-intermed-numeros.png Graphic file (type png)
+<use chap_3/ajout-intermed-numeros.png>
+Package pdftex.def Info: chap_3/ajout-intermed-numeros.png  used on input line 
+39.
+(pdftex.def)             Requested size: 515.91837pt x 200.34494pt.
+
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 40.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (53.44908pt too wide) in paragraph at lines 39--40
+Overfull \hbox (15.43437pt too wide) in paragraph at lines 39--40
  [] 
  []
 
-[35 <./chap_3/ajouter_intermede.png> <./chap_3/liste_intermède.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-
- []
-
-<chap_3/mode_paiement.png, id=669, 1359.0775pt x 602.25pt>
-File: chap_3/mode_paiement.png Graphic file (type png)
-<use chap_3/mode_paiement.png>
-Package pdftex.def Info: chap_3/mode_paiement.png  used on input line 46.
-(pdftex.def)             Requested size: 543.62138pt x 240.89572pt.
+<chap_3/ajout-intermed-dossier.png, id=703, 1291.82625pt x 435.6275pt>
+File: chap_3/ajout-intermed-dossier.png Graphic file (type png)
+<use chap_3/ajout-intermed-dossier.png>
+Package pdftex.def Info: chap_3/ajout-intermed-dossier.png  used on input line 
+46.
+(pdftex.def)             Requested size: 516.72134pt x 174.24791pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 47.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (43.13739pt too wide) in paragraph at lines 46--47
+Overfull \hbox (16.23735pt too wide) in paragraph at lines 46--47
  [] 
  []
 
-<chap_3/types.png, id=670, 1089.06876pt x 542.025pt>
-File: chap_3/types.png Graphic file (type png)
-<use chap_3/types.png>
-Package pdftex.def Info: chap_3/types.png  used on input line 53.
-(pdftex.def)             Requested size: 435.61978pt x 216.80615pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 54.
-See the caption package documentation for explanation.
-
-[36 <./chap_3/mode_paiement.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+[36 <./chap_3/ajouter-intermed-etat-civil.png> <./chap_3/ajout-intermed-numeros
+.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
-<chap_3/recouvrement_1.png, id=676, 1093.08376pt x 466.74374pt>
+<chap_3/liste_intermède.png, id=710, 1351.0475pt x 602.25pt>
+File: chap_3/liste_intermède.png Graphic file (type png)
+<use chap_3/liste_intermède.png>
+Package pdftex.def Info: chap_3/liste_intermède.png  used on input line 54.
+(pdftex.def)             Requested size: 553.93307pt x 246.92409pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 55.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (53.44908pt too wide) in paragraph at lines 54--55
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+[37 <./chap_3/ajout-intermed-dossier.png> <./chap_3/liste_intermède.png>]
+<chap_3/mode_paiement.png, id=717, 1359.0775pt x 602.25pt>
+File: chap_3/mode_paiement.png Graphic file (type png)
+<use chap_3/mode_paiement.png>
+Package pdftex.def Info: chap_3/mode_paiement.png  used on input line 61.
+(pdftex.def)             Requested size: 543.62138pt x 240.89572pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 62.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (43.13739pt too wide) in paragraph at lines 61--62
+ [] 
+ []
+
+<chap_3/types.png, id=718, 1089.06876pt x 542.025pt>
+File: chap_3/types.png Graphic file (type png)
+<use chap_3/types.png>
+Package pdftex.def Info: chap_3/types.png  used on input line 68.
+(pdftex.def)             Requested size: 435.61978pt x 216.80615pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 69.
+See the caption package documentation for explanation.
+
+[38 <./chap_3/mode_paiement.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+<chap_3/recouvrement_1.png, id=725, 1093.08376pt x 466.74374pt>
 File: chap_3/recouvrement_1.png Graphic file (type png)
 <use chap_3/recouvrement_1.png>
-Package pdftex.def Info: chap_3/recouvrement_1.png  used on input line 60.
+Package pdftex.def Info: chap_3/recouvrement_1.png  used on input line 75.
 (pdftex.def)             Requested size: 437.22575pt x 186.69418pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 61.
+(caption)                particular \caption on input line 76.
 See the caption package documentation for explanation.
 
-<chap_3/recouvrement_2.png, id=677, 1068.99374pt x 387.4475pt>
+<chap_3/recouvrement_2.png, id=726, 1068.99374pt x 387.4475pt>
 File: chap_3/recouvrement_2.png Graphic file (type png)
 <use chap_3/recouvrement_2.png>
-Package pdftex.def Info: chap_3/recouvrement_2.png  used on input line 65.
+Package pdftex.def Info: chap_3/recouvrement_2.png  used on input line 80.
 (pdftex.def)             Requested size: 427.58992pt x 154.97624pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 66.
+(caption)                particular \caption on input line 81.
 See the caption package documentation for explanation.
 
-[37 <./chap_3/types.png> <./chap_3/recouvrement_1.png>]
-<chap_3/recouvrement_3.png, id=684, 693.59125pt x 531.9875pt>
+[39 <./chap_3/types.png> <./chap_3/recouvrement_1.png>]
+<chap_3/recouvrement_3.png, id=733, 693.59125pt x 531.9875pt>
 File: chap_3/recouvrement_3.png Graphic file (type png)
 <use chap_3/recouvrement_3.png>
-Package pdftex.def Info: chap_3/recouvrement_3.png  used on input line 70.
+Package pdftex.def Info: chap_3/recouvrement_3.png  used on input line 85.
 (pdftex.def)             Requested size: 277.43158pt x 212.79123pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 71.
+(caption)                particular \caption on input line 86.
 See the caption package documentation for explanation.
 
-<chap_3/transfert_1.png, id=685, 1091.07625pt x 391.4625pt>
+<chap_3/transfert_1.png, id=734, 1091.07625pt x 391.4625pt>
 File: chap_3/transfert_1.png Graphic file (type png)
 <use chap_3/transfert_1.png>
-Package pdftex.def Info: chap_3/transfert_1.png  used on input line 77.
+Package pdftex.def Info: chap_3/transfert_1.png  used on input line 92.
 (pdftex.def)             Requested size: 436.42278pt x 156.58221pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 78.
+(caption)                particular \caption on input line 93.
 See the caption package documentation for explanation.
 
-[38 <./chap_3/recouvrement_2.png> <./chap_3/recouvrement_3.png>]
-<chap_3/transfert_2.png, id=692, 1060.96375pt x 434.62375pt>
+[40 <./chap_3/recouvrement_2.png> <./chap_3/recouvrement_3.png>]
+<chap_3/transfert_2.png, id=741, 1060.96375pt x 434.62375pt>
 File: chap_3/transfert_2.png Graphic file (type png)
 <use chap_3/transfert_2.png>
-Package pdftex.def Info: chap_3/transfert_2.png  used on input line 82.
+Package pdftex.def Info: chap_3/transfert_2.png  used on input line 97.
 (pdftex.def)             Requested size: 424.37798pt x 173.8464pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 83.
+(caption)                particular \caption on input line 98.
 See the caption package documentation for explanation.
 
-<chap_3/message_1.png, id=693, 1041.8925pt x 490.83376pt>
-File: chap_3/message_1.png Graphic file (type png)
-<use chap_3/message_1.png>
-Package pdftex.def Info: chap_3/message_1.png  used on input line 89.
-(pdftex.def)             Requested size: 520.94498pt x 245.41628pt.
+<chap_3/facture.png, id=742, 311.1625pt x 515.9275pt>
+File: chap_3/facture.png Graphic file (type png)
+<use chap_3/facture.png>
+Package pdftex.def Info: chap_3/facture.png  used on input line 104.
+(pdftex.def)             Requested size: 217.81226pt x 361.14679pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 90.
+(caption)                particular \caption on input line 105.
+See the caption package documentation for explanation.
+
+[41 <./chap_3/transfert_1.png> <./chap_3/transfert_2.png>]
+<chap_3/message_1.png, id=750, 1041.8925pt x 490.83376pt>
+File: chap_3/message_1.png Graphic file (type png)
+<use chap_3/message_1.png>
+Package pdftex.def Info: chap_3/message_1.png  used on input line 111.
+(pdftex.def)             Requested size: 520.94498pt x 245.41628pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 112.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (20.46098pt too wide) in paragraph at lines 89--90
+Overfull \hbox (20.46098pt too wide) in paragraph at lines 111--112
  [] 
  []
 
-[39 <./chap_3/transfert_1.png> <./chap_3/transfert_2.png>]
-<chap_3/message_2.png, id=700, 1061.9675pt x 465.74pt>
+[42 <./chap_3/facture.png>]
+<chap_3/message_2.png, id=756, 1061.9675pt x 465.74pt>
 File: chap_3/message_2.png Graphic file (type png)
 <use chap_3/message_2.png>
-Package pdftex.def Info: chap_3/message_2.png  used on input line 94.
+Package pdftex.def Info: chap_3/message_2.png  used on input line 116.
 (pdftex.def)             Requested size: 530.98245pt x 232.86943pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 95.
+(caption)                particular \caption on input line 117.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (30.49846pt too wide) in paragraph at lines 94--95
+Overfull \hbox (30.49846pt too wide) in paragraph at lines 116--117
  [] 
  []
 
-<chap_3/etat_de_paiement.png, id=701, 1098.1025pt x 542.025pt>
+<chap_3/etat_de_paiement.png, id=757, 1098.1025pt x 542.025pt>
 File: chap_3/etat_de_paiement.png Graphic file (type png)
 <use chap_3/etat_de_paiement.png>
-Package pdftex.def Info: chap_3/etat_de_paiement.png  used on input line 100.
+Package pdftex.def Info: chap_3/etat_de_paiement.png  used on input line 122.
 (pdftex.def)             Requested size: 549.0499pt x 271.01183pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 101.
+(caption)                particular \caption on input line 123.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (48.5659pt too wide) in paragraph at lines 100--101
+Overfull \hbox (48.5659pt too wide) in paragraph at lines 122--123
  [] 
  []
 
-[40 <./chap_3/message_1.png> <./chap_3/message_2.png>])
-(./conclusion_generale/conclusion_generale.tex)
-(./bibliographie/bibliographie.tex (./memoire.bbl [41 <./chap_3/etat_de_paiemen
-t.png>]
+[43 <./chap_3/message_1.png> <./chap_3/message_2.png>])
+(./conclusion_generale/conclusion_generale.tex [44 <./chap_3/etat_de_paiement.p
+ng>]) (./bibliographie/bibliographie.tex (./memoire.bbl [45
+
+]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7
 .
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 Underfull \hbox (badness 10000) in paragraph at lines 35--39
@@ -1998,7 +2140,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--91
 vc-[]en-[]php /
  []
 
-[42
+[46
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 93--97
@@ -2036,38 +2178,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--109
  / articles-[]internet /
  []
 
-)) [43]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
+)) [47]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
  (./memoire.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
 Package rerunfilecheck Info: File `memoire.out' has not changed.
-(rerunfilecheck)             Checksum: 4A0E6988ADA604164AB946F47961393B;2961.
+(rerunfilecheck)             Checksum: F3EB77E28FA09F8FAA8F21F177BB2C3D;3163.
  ) 
 Here is how much of TeX's memory you used:
- 24210 strings out of 483154
- 442257 string characters out of 5965023
- 749052 words of memory out of 5000000
- 38463 multiletter control sequences out of 15000+600000
- 545865 words of font info for 55 fonts, out of 8000000 for 9000
+ 24280 strings out of 483154
+ 443720 string characters out of 5965023
+ 750183 words of memory out of 5000000
+ 38509 multiletter control sequences out of 15000+600000
+ 548625 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,12n,106p,849b,607s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/tuo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk
-> </home/tuo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1200.600pk>
- </home/tuo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.600pk> 
-</home/tuo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> <
-/home/tuo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </
-home/tuo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </h
-ome/tuo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </ho
-me/tuo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </hom
-e/tuo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home
-/tuo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on memoire.pdf (52 pages, 2452366 bytes).
+> </home/tuo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk>
+ </home/tuo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> 
+</home/tuo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1200.600pk> <
+/home/tuo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </
+home/tuo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </h
+ome/tuo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </ho
+me/tuo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </hom
+e/tuo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.600pk> </home
+/tuo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecxc1728.600pk> </home/
+tuo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecxc2488.600pk> </home/t
+uo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/tu
+o/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/tuo
+/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecxc1200.600pk></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on memoire.pdf (58 pages, 2606955 bytes).
 PDF statistics:
- 1256 PDF objects out of 1440 (max. 8388607)
- 700 compressed objects within 7 object streams
- 197 named destinations out of 1000 (max. 500000)
- 633 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1457 PDF objects out of 1728 (max. 8388607)
+ 758 compressed objects within 8 object streams
+ 209 named destinations out of 1000 (max. 500000)
+ 682 words of extra memory for PDF output out of 10000 (max. 10000000)
 
