@@ -18,7 +18,7 @@
 		
 		Pour automatiser l'intégration de ses applications, l'équipe WAT faisait appel à Jenkins et SonarQube. Ces outils, en plus de gérer les différents stage de pipeline, avait la possibilité d'afficher les rapports d'analyse de code (grâce aux artefacts générer après l'intégrations), avec des diagramme permettant de visualiser l'évolution du nombre d'erreur par outil en fonction des builds.\\
 		
-		Bien que Jenkins offres des fonctionnalités intéressantes en terme d'intégration, il peut être difficile à maintenir et difficile à configurer. Ainsi, depuis Juin 2023 la direction technique de l'entreprise à décider vers Gitlab CI/CD.\\
+		Bien que Jenkins offre des fonctionnalités intéressantes en terme d'intégration, il peut être difficile à maintenir et difficile à configurer. Ainsi, depuis Juin 2023 la direction technique de l'entreprise à décider vers Gitlab CI/CD.\\
 		
 		Le code source des projets étant hébergé sur Gitlab, alors ces projets peuvent bénéficier (grâce à un fichier de configuration) de Gitlab CI/CD sans aucune installation particulière.\\
 		Des runners partagés sont mis à disposition afin d’exécuter les jobs. Il n'est pas nécessaire de déclarer un slave afin de lancer nos pipelines comme on le faisait avec Jenkins.\\
