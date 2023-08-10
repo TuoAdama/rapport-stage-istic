@@ -14,7 +14,23 @@
 		Le déploiement continu (DC) est une pratique de développement logiciel qui vise à automatiser et à simplifier le processus de mise en production des nouvelles fonctionnalités, des correctifs et des modifications de code. Contrairement à l'intégration continue qui se concentre sur l'automatisation des tests et de la validation à chaque modification de code, le déploiement continu va plus loin en automatisant également le déploiement des modifications validées dans un environnement de production.\\
 		
 		L'objectif principal du déploiement continu est de réduire le temps entre la validation d'une modification de code et sa disponibilité pour les utilisateurs finaux. Cela permet de livrer plus rapidement de nouvelles fonctionnalités, des améliorations et des correctifs, ce qui améliore l'expérience utilisateur et accroît l'agilité de l'équipe de développement.\\
-	\section{Contexte}
-	Pour automatiser 
-	L'intégration et deploiement continue des codes produient par les développeurs de l'entreprise etaient effectuées par les FaaS (Function-as-a-Service) Jenkins et SQaaS (SonarQube).\\
-	Jenkins
+	\section{Contexte}		
+		
+		Pour automatiser l'intégration de ses applications, l'équipe WAT faisait appel à Jenkins et SonarQube. Ces outils, en plus de gérer les différents stage de pipeline, avait la possibilité d'afficher les rapports d'analyse de code (grâce aux artefacts générer après l'intégrations), avec des diagramme permettant de visualiser l'évolution du nombre d'erreur par outil en fonction des builds.\\
+		
+		Bien que Jenkins offres des fonctionnalités intéressantes en terme d'intégration, il peut être difficile à maintenir et difficile à configurer. Ainsi, depuis Juin 2023 la direction technique de l'entreprise à décider vers Gitlab CI/CD.\\
+		
+		Le code source des projets étant hébergé sur Gitlab, alors ces projets peuvent bénéficier (grâce à un fichier de configuration) de Gitlab CI/CD sans aucune installation particulière.\\
+		Des runners partagés sont mis à disposition afin d’exécuter les jobs. Il n'est pas nécessaire de déclarer un slave afin de lancer nos pipelines comme on le faisait avec Jenkins.\\
+		Gitlab CI/CD n'offre pas cette possibilité d'afficher les rapports d'analyse de code de manière détaillée (Diagramme, courbe d'évolution, etc) comme le fait Jenkins.
+		C'est ainsi qu'entre en scène les missions de ce stage.
+		
+	\section{Objectifs}
+	L’objectif de ce stage est de développer une application Web en PHP Symfony
+	pour améliorer les pipelines d’intégration continue, permettant notamment de :\\
+	\begin{itemize}
+		\item Recueillir les données des outils de qualités de code via des API
+		\item Historisation de ces données par projet
+		\item Consulter ces données sur des dashboards
+		\item Être alertés lorsque les seuils de qualités ne sont pas atteints
+	\end{itemize}

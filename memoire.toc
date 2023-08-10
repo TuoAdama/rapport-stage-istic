@@ -1,7 +1,6 @@
-\babel@toc {french}{}\relax 
+\babel@toc {french}{}
 \contentsline {chapter}{Table des figures}{ii}{chapter*.2}%
-\contentsline {chapter}{Liste des abréviations}{iii}{chapter*.3}%
-\contentsline {chapter}{Introduction générale}{1}{chapter*.4}%
+\contentsline {chapter}{Introduction générale}{1}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}Présentation de l'entreprise d'accueil}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Orange Business}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}L'équipe WAT}{2}{section.1.2}%
@@ -11,4 +10,6 @@
 \contentsline {subsection}{\numberline {2.1.1}Intégration Continue}{5}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Déploiement continue}{6}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Contexte}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Objectifs}{6}{section.2.3}%
+\contentsline {chapter}{Bibliographie}{7}{section.2.3}%
 \contentsfinish 
