@@ -1,71 +1,36 @@
-\chapter{CADRE GÉNÉRAL}
-\section{ONEMART}
-
-\section{Présentation de l'entreprise}
-	ONEMART est une société expérimentée dans la commercialisation des produits et services de la téléphonie mobile sur le marché national et bénéficiant d’un personnel hautement qualifié. Onemart dispose d’un réseau propre avec plusieurs points de vente mais aussi d’un portefeuille clientèle conséquent. Depuis janvier 2010, elle est le distributeur exclusif (franchisé) d’atlantique télécom CI, société de droit ivoirien propriétaire d’un réseau de radiotéléphonie cellulaire  exploité sous la marque Moov.\\
+\chapter{Présentation de l'entreprise d'accueil}
+\section{Orange Business}
+	Orange Business (anciennement Orange Business Services) est une filiale et une marque commerciale du groupe Orange qui fournit, en France et dans le monde, des services de communication intégrée aux entreprises dans les domaines du cloud computing, des télécommunications, des communications unifiées et de la collaboration.\\
+	Orange Business regroupe les activités business to business des différentes filiales françaises et internationales du groupe Orange.\cite{orange_business}\\
 	
-	ONEMART assure ainsi l’exclusivité de la distribution des produits et des services de Moov (Kits, recharges physiques et électroniques, portables et autres services après vente) dans les zones géographiques suivantes: Yopougon, Dabou, Sikensi, Tiassale, N’douci, Jacqueville, Grand-lahou, N’zianoua,.\\
+	Orange Business est une identité commerciale du groupe Orange qui a été constituée le 1er juin 2006 (sous le nom d'Orange Business Services)2, afin d'offrir une marque unique des services de télécommunication (données, téléphonie et convergence) et informatiques pour les entreprises. Elle opère dans 220 pays et territoires et emploie plus de 21 000 personnes réparties sur 166 pays3.\\
 	
+	Orange Business est le résultat de la consolidation et du regroupement sous une seule marque, d’entités issues de trois entreprises aujourd’hui dissoutes : France Telecom, Equant et Wanadoo2.\\
 	
-\section{Cadre du projet} % Developpement web %
-	Dans le cadre de notre mémoire nous nous sommes concentrés sur une des branches de l'entreprise qui est le rechargement des clients qui sont aussi appelés intermèdes.
-\subsection{Problématique}
-		Dans les années antérieures, l'entreprise ONEMART disposait d'une application VB déjà compilée avec toutes les plages de numéros dont elle disposait. Ainsi lors du passage des numérotations à dix chiffres, l'entreprise faisait face à un très gros problème qui était de mettre à jour les numéros des intermèdes vu que le code source de l'application n'était plus disponible.
-		\paragraph{}A son siège, l'entreprise disposait d'un PC central câblé en local avec un téléphone d'ancienne génération(Sony Ericsson) équipé d'une puce \textbf{emaster} qui récupérait par câble les opérations effectuées (Recouvrement et transfert) sur le PC pour les valider. Ainsi, pour faire des rechargements et transferts depuis un point de vente distant, l'on devait se connecter par VPN (Virtual Private Network) pour avoir accès au PC central. En effet, puisque le VPN fait transiter la connexion de l'utilisateur par un serveur distant, ce qui rajoute une étape intermédiaire lors de la transmission des informations. Ainsi l'on fait face à un débit de transmission moins stable.
-		\paragraph{}Aussi sur le point sécuritaire, il est important de noter que les opérations se faisaient manuellement sachant bien que les montants de transfert étaient très élevés ce qui pouvait être très problématique du moment où l'on peut être exposé aux problèmes suivants: Se tromper sur le montant de transfert, transférer l'argent d'un intermède	à un autre.\\
-		
-\subsection{Objectifs du projet}
-	Face aux problèmes cités ci-dessus, notre application aura pour objectifs de :
+	Le 16 février 2023, Christel Heydemann, la directrice générale du groupe Orange, annonce qu'Orange Business Services se nommera désormais tout simplement Orange Business4,5.\cite{orange_business}\\
+	
+	Les lignes qui suivront, seront consacrées à Orange Business Nantes.
+	
+\section{L'équipe WAT} % Developpement web %
+	En fonction des technologies utilisées, Orange Business Nantes est répartie en plusieurs équipes (WAT, BIM, PIX, TED et TM).\\
+	
+	L'équipe WAT(Web Applications Team) est spécialisée dans le pilotage et le développement d'applications Web basées sur les technologies PHP, dont le framework Symfony, ou des CMS, dont drupal et Wordpress.\\
+	
+	L'équipe est composée de :
 	\begin{itemize}
-		
-		\item Mettre en place une application WEB car en plus d’être accessible sur toutes les plateforme (peu importe le système d'exploitation de l'utilisateur), elle est simple et nécessite aucune installation.\\
-		
-		
-		
-		\item Que de passer par VPN (Virtual Private Network) pour avoir accès au PC central, l’application sera accessible peu importe la situation géographique de l'utilisateur.\\
-		
-		\item Fournir une interopérabilité entre l'application et d'autre système externe. C'est à dire rendre accessible par API (Application Programming Interface) les informations de transfert et recouvrement après chaque opération pour qu'un autre système puissent les récupérer et les valider par \textbf{USSD}.\\
-		
-		\item Offrir plusieurs modes de paiement aux intermèdes lors des transferts: comptant, crédit, bancaire, etc...
-		
-		\item Fournir une facture après chaque opération.
-		
-		
+		\item \textbf{Chefs de projets} : responsables du bon déroulement des projets.\\
+		\item \textbf{Experts techniques} : ils ont un rôle transverse dans l'équipe en intervenant sur plusieurs projets. Leurs activités principales : support technique aux projets, avant-vente, mise en place des environnements techniques, de la CI/CD, veille techno, ...\\
+		\item 	\textbf{Développeurs} : codent les fonctionnalités souhaitées sur les projets.\\
 	\end{itemize}
-\subsection{Élaboration du cahier des charges}
-	
-	Dans cette section, nous allons définir les différentes charges que notre application devra respecter lors de la conception.
-	L'application aura pour charge :
-	\begin{itemize}
-		\item Créer un point d'entrée par lequel les données seront accessible par un autre système externe.\\
-		\item Persister les messages de transferts et recouvrement\\
-		\item Sauvegarder les historiques de transfert.\\
-		\item Gérer la liste des intermèdes en ayant la possibilité de la modifier, ajouter et supprimer sans oublier de leur attribuer des numéros.\\
-		\item Gestion du mode de paiement (paiement par carte bancaire, crédit ou comptant).\\
-		\item Élaboration d'une facture après chaque opération avec la possibilité de la télécharger.\\
-		\item Gérer l'état des opérations:\\
-			\begin{itemize}
-				\item[$\bullet$]  état initié : Lorsque l'opération vient d'être effectuée.\\
-				\item[$\bullet$] cours d'exécution: Lorsque l'application mobile récupère le message d'opération pour la valider.\\
-				\item[$\bullet$] exécuté: Lorsque l'opération est effectuée par l'application.\\
-				\item[$\bullet$] annulé: Lorsque le l'opération est annulée.
-			\end{itemize}
-	\end{itemize}
-
-\subsection{Planification de l'application}
-	Que l’on soit chef d’équipe ou responsable de sa propre activité, bien planifier ses projets est essentiel pour être efficace. Cela permet d’organiser son temps dépendamment du travail à réaliser, et de garantir son efficacité sur le long terme. Ainsi la planification d'une application passe par plusieurs étapes(qui peux dépendre d'une application à une autre ) telle que:\\
-	
-	\begin{itemize}
-		\item Étape n° 1 : \textbf{analyse fonctionnelle et définition des objectifs} : Cette partie consistera à rechercher et à caractériser les fonctions offertes par notre application pour satisfaire les différents besoins du client.\\
-		\item Étape n° 2 : \textbf{conception détaillée}: La phase de conception détaillée donne lieu à la rédaction du cahier des charges opérationnel. C'est elle qui précisera les différents éléments de dimensionnement du projet.\cite{planification} C'est aussi dans cette étape qu'entre la modélisation du système avec des méthodes de modélisations comme MERISE.\\
-		\item Étape n° 3 : \textbf{développement du projet}: C'est dans cette  partie qu'entre en jeu la partie technique de l'application. Cette étapes exige la maîtrise d'au moins un langage de programmation.\\
-		\item Étape n° 4 : \textbf{Phase de tests}:
-		%Tests unitaires, tests d'integration ,tests de validation%
-		C'est l'ensemble des tests(tests unitaires, tests d'intégration et tests de validation) qui permettront de retrouver les erreurs moins évidentes qui n'ont pas été détectées pendant la phase de développement.\\
-		\item Étape n° 5 : \textbf{recette}: Permet de s'assurer que l'application développée correspond bien aux exigences fixées par le client.\\
-		\item Étape n° 6 : \textbf{mise en production}: Déploiement de l'application.\\
-		\item Étape n° 7 : \textbf{maintenance}: On entend par maintenance, l'ensemble des modifications mises en place après la mise en œuvre de l'application en production afin de corriger les bogues, améliorer les performances ou encore l'adapter à une modification de son environnement.\cite{planification}
-	\end{itemize}
-	
-\section{Conclusion}
-	Dans ce chapitre nous avons présenté \textbf{ONEMART} ainsi que ses différentes activités. Nous avons cadré le projet sur lequel tient notre mémoire en définissant la problématique, les objectifs, le cahier des charges et enfin le plan sur lequel se déroulera le développement de l'application. Le prochain chapitre sera dédié à la conception et à l'analyse des besoins de l'entreprise.
+	\begin{center}
+		\includegraphics[scale=0.4]{chap_1/WAT-logo.png}
+		\captionof{figure}{Equipe WAT}
+		\label{Equipe WAT}
+	\end{center}
+\section{Organigramme}
+		L'illustration ci-dessous permet de résumer en une image les paragraphes ci-dessus décrivant l'entreprise.\\
+		\begin{center}
+			\includegraphics[scale=0.6]{chap_1/organigramme.png}
+			\captionof{figure}{Organigramme}
+			\label{Organigramme}
+		\end{center}
