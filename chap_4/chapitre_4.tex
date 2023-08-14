@@ -1,0 +1,27 @@
+\chapter{Réalisation}
+	\section{Introduction}
+		Dans ce chapitre, nous passerons en revu la réalisation des termes évoqués tout au longs les lignes précédentes. Nous aborderons égalements les difficultés techniques rencontrées durant le stage.
+	\section{Création d'un utilisateur}
+	La gestion des utilisateurs est une fonctionnalité indispensable dans la création d'un back office. Dans le système mis en place, pour que les données des utilisateurs soient prises en compte, plusieurs phases de vérifications doivent être éffectuées. Lorsque l'utilisateur renseigne ses informations, la phase de validation de données est déclenchée. Si les données ne sont pas valides alors un ensemble de message d'erreurs est renvoyé à ce dernier.\\
+	Dans le cas contraire, un mail de vérification est envoyé à l'utilisateur pour comfirmer son adresse mail.\\
+	Tout ce processus peut être inité par deux méthodes: \textbf{Commande symfony} et \textbf{le back office}.\\
+	
+		\textbf{Depuis une commande Symfony: } L'accès au back office requière le compte d'un utilisateur pré-enregistré dans la base de données.
+			Pour un projet initialisé, il n'existe aucun utilisateur crée dans la base de données ce qui peut être problématique. Ainsi la création d'une commande symfony de créer le compte d'un utilisateur sans passer par une interface graphique.\\
+			
+		\textbf{Depuis le back-office: } En plus d'une commande Symfony, une interface graphique permet à un administrateur.
+	\section{Authenfication}
+		
+	\section{API de récupération des fichiers de qualité de code}
+	\section{API de récupération des fichiers de tests}
+	\section{Dashboard}
+		\subsection{Récapitulatif de l'etat d'un projet}
+		\subsection{Diagrammes}
+			\subsection{Build}
+			\subsection{Outils}
+		\subsection{Tableau de builds}
+	\section{Difficultés rencontrées}
+		\subsection{Les entités}
+		\subsection{Les merges requests}
+		\subsection{Single responsability}
+		\subsection{Adaptation aux outils de qualité de code}
