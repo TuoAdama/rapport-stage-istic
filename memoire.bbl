@@ -1,8 +1,61 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{orange_business}
 https://fr.wikipedia.org/.
 \newblock Orange business.
 \newblock \url{https://fr.wikipedia.org/wiki/Orange_Business}.
+
+\bibitem{planification}
+Samantha Mur.
+\newblock Comment gerer un projet informatique ?
+\newblock
+  \url{https://www.appvizer.fr/magazine/operations/gestion-de-projet/gestion-projet-informatique}.
+\newblock 18/12/2021.
+
+\bibitem{phpqa_image}
+PHPQA.
+\newblock https://i.morioh.com/2023/06/17/ebfc7e41.webp.
+
+\bibitem{codeception_image}
+Codeception.
+\newblock
+  https://blog.eleven-labs.com/imgs/posts/2017-03-09-retour-experience-codeception/codeception-logo.png.
+
+\bibitem{codeception}
+Codeception.
+\newblock https://codeception.com/.
+
+\bibitem{docker_image}
+Docker.
+\newblock https://www.1min30.com/wp-content/uploads/2018/05/logo-docker-1.jpg.
+
+\bibitem{mariaDB_image}
+MariaDB.
+\newblock
+  https://e7.pngegg.com/pngimages/468/466/png-clipart-mariadb-mysql-amazon-relational-database-service-fork-marine-mammal-mammal-thumbnail.png.
+
+\bibitem{chatgpt}
+OpenAI.
+\newblock https://chat.openai.com/.
+
+\bibitem{adminlte_image}
+AdminLTE.
+\newblock
+  https://seeklogo.com/images/a/adminlte-logo-f861652b55-seeklogo.com.png.
+
+\bibitem{chartjs_image}
+ChartJS.
+\newblock https://www.chartjs.org/img/chartjs-logo.svg.
+
+\bibitem{chartjs}
+ChartJS.
+\newblock https://fr.wikipedia.org/wiki/chart.js.
+
+\bibitem{react_js}
+https://fr.wikipedia.org/wiki/react.
+
+\bibitem{react_wiki}
+React.
+\newblock https://fr.wikipedia.org/wiki/react.
 
 \end{thebibliography}

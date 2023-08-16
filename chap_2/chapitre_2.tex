@@ -26,11 +26,37 @@
 		C'est ainsi qu'entre en scène les missions de ce stage.
 		
 	\section{Objectifs}
-	L’objectif de ce stage est de développer une application Web en PHP Symfony
-	pour améliorer les pipelines d’intégration continue, permettant notamment de :\\
+	L’objectif de ce stage est de développer une application Web en PHP Symfony pour améliorer les pipelines d’intégration continue (avec Gitlab CI/CD). Cette application sera une alternative à la fonctionnalité qu'offrait Jenkins pour l'affichage des rapports de qualité de code à travers un dashboard. Les fonctionnalités principales de cette application seront:
 	\begin{itemize}
 		\item Recueillir les données des outils de qualités de code via des API
-		\item Historisation de ces données par projet
-		\item Consulter ces données sur des dashboards
-		\item Être alertés lorsque les seuils de qualités ne sont pas atteints
+		\item Historisation de ces données par projet.
+		\item Consulter ces données sur des dashboards.
+		\item Être alertés lorsque les seuils de qualités ne sont pas atteints.
+		\item La réalisation d'un backoffice depuis lequel les administrateurs auront la possibilité de gérer les projets sur lesquels des développeurs seront amener à collaborer. Aussi, à travers ce backoffice, il sera possible de créer d'autres utilisateurs qui auront la possibilité d'effectuer ces mêmes actions.
+		\item  Définir les tendances pour chaque outil de qualité de code (indentation du code, respect de la nomenclature des variables, etc.). En effet, cela consiste à indiquer s'il y a une régression ou une amélioration après un certain nombre de commits effectués par les développeurs.
+		\item Définir une tendance globale pour avoir un aperçu sur l'etat de chaque projet.
 	\end{itemize}
+
+	\section{Planification}
+	Que l’on soit chef d’équipe ou responsable de sa propre activité, bien planifier ses projets est essentiel pour être efficace. Cela permet d’organiser son temps dépendamment du travail à réaliser, et de garantir son efficacité sur le long terme. Ainsi la planification d'une application passe par plusieurs étapes(qui peux dépendre d'une application à une autre ) telle que:\\
+	
+	\begin{itemize}
+		\item Étape n° 1 : \textbf{analyse fonctionnelle et définition des objectifs} : Cette partie consistera à rechercher et à caractériser les fonctions offertes par notre application pour satisfaire les différents besoins du client.\\
+		\item Étape n° 2 : \textbf{conception détaillée}: La phase de conception détaillée donne lieu à la rédaction du cahier des charges opérationnel. C'est elle qui précisera les différents éléments de dimensionnement du projet.\cite{planification} C'est aussi dans cette étape qu'entre la modélisation du système avec des language de modélisations comme UML.\\
+		\item Étape n° 3 : \textbf{Développement du projet}: C'est dans cette  partie qu'entre en jeu la partie technique de l'application. Cette étapes exige la maîtrise d'au moins un langage de programmation.\\
+		\item Étape n° 4 : \textbf{Phase de tests}:
+		%Tests unitaires, tests d'integration ,tests de validation%
+		C'est l'ensemble des tests(tests unitaires, tests fontionnels et tests d'acceptances) qui permettront de retrouver les erreurs moins évidentes qui n'ont pas été détectées pendant la phase de développement.\\
+		\item Étape n° 5 : \textbf{Recette}: Permet de s'assurer que l'application développée correspond bien aux exigences fixées par le client.\\
+		\item Étape n° 6 : \textbf{Mise en production}: Déploiement de l'application.\\
+		\item Étape n° 7 : \textbf{Maintenance}: On entend par maintenance, l'ensemble des modifications mises en place après la mise en œuvre de l'application en production afin de corriger les bogues, améliorer les performances ou encore l'adapter à une modification de son environnement.\cite{planification}
+	\end{itemize}
+
+	\section{Méthode de travail}
+		En premier lieu, les besoins sont définis par le client à travers les tickets sur JIRA ou les issues sur GitLab. Une fois que ces tickets sont réalisés par le développeur que je suis au sein de l'équipe, une merge request est créé pour permettre à un expert technique d'intervenir afin de vérifier la qualité de code produit par le développeur.\\
+		
+		Après vérification par l’expert technique, celui-ci peut approuver les fonctionnalités développer en cas de respect des bonnes pratiques et de cohérence entre le ticket (ou issue) et la fonctionnalité. Dans le cas contraire, un retour est fait au développeur pour lui signifier les problèmes liés à sa fonctionnalité.\\
+		
+		Ce processus est effectué de manière itérative jusqu’à la réalisation de chaque ticket. Enfin, toutes les deux semaines, une réunion de suivi de stage est réalisée entre les parties prenantes(client, chef de projet, tuteur de stage et stagiaire développeur) du stage pour faire des points sur l’avancement du stage, des difficultés rencontrées et s’assurer que les besoins du client sont bien respectés à travers parfois une démonstration.
+		
+		
