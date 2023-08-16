@@ -25,10 +25,10 @@
 \BOOKMARK [0][-]{chapter.4}{R\351alisation}{}% 25
 \BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 26
 \BOOKMARK [1][-]{section.4.2}{Cr\351ation d'un utilisateur}{chapter.4}% 27
-\BOOKMARK [1][-]{section.4.3}{Authenfication}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.3}{Authentification}{chapter.4}% 28
 \BOOKMARK [1][-]{section.4.4}{API de r\351cup\351ration des fichiers de rapports}{chapter.4}% 29
 \BOOKMARK [1][-]{section.4.5}{Dashboard}{chapter.4}% 30
-\BOOKMARK [2][-]{subsection.4.5.1}{R\351capitulatif de l'etat d'un projet}{section.4.5}% 31
+\BOOKMARK [2][-]{subsection.4.5.1}{R\351capitulatif de l'\351tat d'un projet}{section.4.5}% 31
 \BOOKMARK [2][-]{subsection.4.5.2}{Diagrammes}{section.4.5}% 32
 \BOOKMARK [2][-]{subsection.4.5.3}{Tableau de builds}{section.4.5}% 33
 \BOOKMARK [0][-]{figure.4.6}{webographiques}{}% 34

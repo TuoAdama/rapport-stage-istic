@@ -27,10 +27,10 @@
 \contentsline {chapter}{\numberline {4}Réalisation}{16}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Introduction}{16}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Création d'un utilisateur}{16}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Authenfication}{17}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Authentification}{16}{section.4.3}%
 \contentsline {section}{\numberline {4.4}API de récupération des fichiers de rapports}{17}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Dashboard}{17}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Récapitulatif de l'etat d'un projet}{17}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.1}Récapitulatif de l'état d'un projet}{17}{subsection.4.5.1}%
 \contentsline {subsection}{\numberline {4.5.2}Diagrammes}{18}{subsection.4.5.2}%
 \contentsline {subsubsection}{Build}{18}{subsubsection*.5}%
 \contentsline {subsubsection}{Outils}{19}{subsubsection*.6}%
